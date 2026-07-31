@@ -314,6 +314,9 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 .bio-text:first-of-type{ font-size:1.16rem; color:var(--ink); }
 
 .fact-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:44px; }
+.fact-row--inline{ margin-top:28px; gap:14px; }
+.fact-row--inline .fact-card{ padding:16px 10px; }
+.fact-row--inline .fact-card__num{ font-size:1.6rem; }
 .fact-card{
   background:var(--paper); border:2px solid var(--navy); border-radius:var(--radius);
   padding:22px; text-align:center;
