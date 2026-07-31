@@ -1,13 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" async defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Re-Elect Ritch Lau — Ward 2 Markham 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>CAMPAIGN LAUNCH · AUGUST 1</span>
+    <span>★</span>
+    <span>ELECTION DAY · OCTOBER 26</span>
+    <span>★</span>
+    <span>WARD 2 · MARKHAM</span>
+    <span>★</span>
+    <span>CAMPAIGN LAUNCH · AUGUST 1</span>
+    <span>★</span>
+    <span>ELECTION DAY · OCTOBER 26</span>
+    <span>★</span>
+    <span>WARD 2 · MARKHAM</span>
+    <span>★</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark">RL</span>
+      <span class="brand__text">RITCH LAU <em>Ward 2</em></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#launch">Launch Event</a>
+      <a href="#involved">Get Involved</a>
+      <a href="#services">City Services</a>
+      <a href="#vote">How to Vote</a>
+      <a href="#contact" class="nav__cta">Join Team Ritch</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="launch">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">Municipal Election 2026 · Ward 2 Markham</p>
+        <h1 class="hero__title">
+          <span>KEEP</span>
+          <span class="stroke">WARD 2</span>
+          <span>MOVING</span>
+        </h1>
+        <p class="hero__lede">
+          Ritch Lau launches his re-election campaign on <strong>August&nbsp;1</strong>, sharing his vision
+          for Ward 2 and unveiling the 2026 Campaign Platform. Join Team Ritch and help keep Ward 2
+          strong, safe, and connected.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Join Team Ritch</a>
+          <a href="#vote" class="btn btn--ghost">How to Vote →</a>
+        </div>
+        <div class="hero__meta">
+          <div><span class="hero__meta-num">Oct 26</span><span class="hero__meta-label">Election Day</span></div>
+          <div><span class="hero__meta-num">5</span><span class="hero__meta-label">Neighbourhoods</span></div>
+          <div><span class="hero__meta-num">$0</span><span class="hero__meta-label">Cost for a lawn sign</span></div>
+        </div>
+      </div>
+      <div class="hero__poster">
+        <div class="sign-card">
+          <p class="sign-card__eyebrow">You're invited</p>
+          <p class="sign-card__date">AUG 01</p>
+          <p class="sign-card__title">Official Campaign Launch</p>
+          <p class="sign-card__sub">Vision for Ward 2 &amp; the 2026 Platform reveal</p>
+          <img src="https://ritchlau.ca/wp-content/uploads/2026/07/0801_EventPoster-683x1024.webp" alt="Campaign launch event poster, August 1" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="section" id="involved">
+    <div class="section__inner">
+      <p class="eyebrow">Get involved</p>
+      <h2 class="section__title">Three ways to back the ward</h2>
+      <div class="involve-grid">
+        <article class="involve-card involve-card--red">
+          <p class="involve-card__index">Sign</p>
+          <h3>Display a lawn sign</h3>
+          <p>Request a free lawn sign for your yard. Volunteers begin installing as early as mid-August, subject to election rules and availability.</p>
+          <a class="text-link" href="https://forms.gle/s9P6NJmXpC2NQHho8" target="_blank" rel="noopener">Request a sign →</a>
+          <p class="involve-card__fine">Removed within 48 hours after Oct 26 — no need to take it down yourself.</p>
+        </article>
+        <article class="involve-card involve-card--navy">
+          <p class="involve-card__index">Volunteer</p>
+          <h3>Join the campaign team</h3>
+          <p>Canvass, help at events, or support behind the scenes. Every volunteer hour keeps Ward 2 strong, safe, and connected.</p>
+          <a class="text-link" href="#contact">Sign up below →</a>
+          <p class="involve-card__fine">支持義工團隊 — Support the volunteer team</p>
+        </article>
+        <article class="involve-card involve-card--gold">
+          <p class="involve-card__index">Donate</p>
+          <h3>Support the campaign</h3>
+          <p>Contributions help fund signs, events, and outreach across Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</p>
+          <a class="text-link" href="#contact">Get in touch →</a>
+          <p class="involve-card__fine">Email Ward2@ritchlau.ca</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--flip" id="services">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow">Between elections</p>
+        <h2 class="section__title">Something not right on your street?</h2>
+        <p class="body-lg">Markham's online system makes it easy to submit a request for service — get a tracking number and check the status any time.</p>
+        <div class="chip-row">
+          <span class="chip">Garbage</span>
+          <span class="chip">Parks</span>
+          <span class="chip">Trees</span>
+          <span class="chip">Street Lights</span>
+          <span class="chip">Graffiti</span>
+          <span class="chip">Potholes</span>
+        </div>
+        <a class="btn btn--primary" href="https://www.markham.ca/services/report-a-problem" target="_blank" rel="noopener">Report or track a problem →</a>
+      </div>
+      <div class="split__map">
+        <div class="map-card">
+          <p class="map-card__label">Ward 2 Boundary</p>
+          <ul class="map-card__bounds">
+            <li><strong>West</strong> to Hwy 404</li>
+            <li><strong>East</strong> to Warden Ave</li>
+            <li><strong>South</strong> to Hwy 7</li>
+            <li><strong>North</strong> to 19th Ave</li>
+          </ul>
+          <img src="https://ritchlau.ca/wp-content/uploads/2026/07/Ward2Map-768x960.webp" alt="Map of Markham Ward 2 boundaries" loading="lazy">
+          <p class="map-card__hoods">Buttonville · Cachet · Cathedraltown · Victoria Square · Springwater</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO VOTE -->
+  <section class="section" id="vote">
+    <div class="section__inner">
+      <p class="eyebrow">Elections Markham</p>
+      <h2 class="section__title">How to vote — three options</h2>
+      <ol class="vote-steps">
+        <li class="vote-step">
+          <span class="vote-step__num">01</span>
+          <div>
+            <h3>Vote online</h3>
+            <p class="vote-step__dates">October 16 – October 26</p>
+            <p>Vote anywhere, anytime during voting days, from your computer or mobile device.</p>
+          </div>
+        </li>
+        <li class="vote-step">
+          <span class="vote-step__num">02</span>
+          <div>
+            <h3>Vote at a voting place</h3>
+            <p class="vote-step__dates">October 23 – October 26</p>
+            <p>Vote in person at any voting place in Markham.</p>
+          </div>
+        </li>
+        <li class="vote-step">
+          <span class="vote-step__num">03</span>
+          <div>
+            <h3>Vote by special ballot</h3>
+            <p class="vote-step__dates">September 28 – October 22, Mon–Fri, by appointment</p>
+            <p>Vote at Elections Markham Headquarters, Markham Civic Centre.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--dark" id="contact">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow eyebrow--light">Join Team Ritch</p>
+        <h2 class="section__title section__title--light">Support now by donating or volunteering</h2>
+        <p class="body-lg body-lg--light">捐助或加入義工團隊，即刻聯絡我！</p>
+        <p class="body-lg body-lg--light">Email: <a href="mailto:ward2@ritchlau.ca">ward2@ritchlau.ca</a></p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>
+          <span>Name / 姓名</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email / 電子郵件</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Message / 留言</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--block">Send</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Authorized by the Official Agent of Ritch Lau Campaign</p>
+  <p>All Rights Reserved © 2026</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
