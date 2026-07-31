@@ -1,3 +1,25 @@
+// Language toggle (English / Traditional Chinese)
+const langToggle = document.getElementById('langToggle');
+const htmlRoot = document.getElementById('htmlRoot');
+
+function setLang(lang) {
+  document.body.setAttribute('data-lang', lang);
+  htmlRoot.setAttribute('lang', lang === 'zh' ? 'zh-Hant' : 'en');
+  langToggle.querySelectorAll('.lang-toggle__opt').forEach(opt => {
+    opt.classList.toggle('lang-toggle__opt--active', opt.dataset.val === lang);
+  });
+  localStorage.setItem('ritchlau-lang', lang);
+}
+
+langToggle.addEventListener('click', () => {
+  const current = document.body.getAttribute('data-lang');
+  setLang(current === 'en' ? 'zh' : 'en');
+});
+
+// Restore saved preference
+const savedLang = localStorage.getItem('ritchlau-lang');
+if (savedLang) setLang(savedLang);
+
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const nav = document.getElementById('nav');
@@ -22,7 +44,10 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const name = form.name.value.trim();
   if (!name) return;
-  status.textContent = `Thanks, ${name.split(' ')[0]} — your message has been noted. We'll be in touch soon.`;
+  const lang = document.body.getAttribute('data-lang');
+  status.textContent = lang === 'zh'
+    ? `多謝 ${name} — 我們已收到您的留言，將盡快與您聯絡。`
+    : `Thanks, ${name.split(' ')[0]} — your message has been noted. We'll be in touch soon.`;
   status.style.color = '#0B2545';
   form.reset();
 });

@@ -14,6 +14,7 @@
   --font-display: "Anton", "Arial Narrow", sans-serif;
   --font-body: "Work Sans", -apple-system, sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
+  --font-zh: "Noto Sans TC", "Work Sans", -apple-system, sans-serif;
 
   --radius: 14px;
   --shadow-lift: 0 18px 40px rgba(11,37,69,0.16);
@@ -36,6 +37,37 @@ h1,h2,h3{ font-family:var(--font-display); text-transform:uppercase; letter-spac
   *{ animation-duration:0.001ms !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
 }
 :focus-visible{ outline:3px solid var(--gold); outline-offset:3px; }
+
+/* ============ LANGUAGE TOGGLE ============ */
+.lang-zh{ display:none; }
+body[data-lang="zh"] .lang-en{ display:none; }
+body[data-lang="zh"] .lang-zh{ display:inline; }
+body[data-lang="zh"]{ font-family:var(--font-zh); }
+body[data-lang="zh"] h1, body[data-lang="zh"] h2, body[data-lang="zh"] h3{
+  font-family:var(--font-zh);
+  text-transform:none;
+  letter-spacing:0.02em;
+}
+body[data-lang="zh"] .hero__title{ font-weight:900; letter-spacing:0.04em; }
+body[data-lang="zh"] .hero__title .stroke{ -webkit-text-stroke:1.5px var(--navy); }
+body[data-lang="zh"] .eyebrow, body[data-lang="zh"] .vote-step__dates, body[data-lang="zh"] .chip{
+  font-family:var(--font-zh);
+  letter-spacing:0.04em;
+}
+body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
+
+.lang-toggle{
+  display:flex; align-items:center; gap:2px;
+  background:rgba(11,37,69,0.08);
+  border:0; border-radius:999px; padding:3px;
+  cursor:pointer; font-family:var(--font-mono);
+}
+.lang-toggle__opt{
+  padding:6px 12px; border-radius:999px;
+  font-size:0.78rem; font-weight:700; color:var(--navy);
+  transition:background 0.15s ease, color 0.15s ease;
+}
+.lang-toggle__opt--active{ background:var(--navy); color:var(--white); }
 
 .eyebrow{
   font-family:var(--font-mono);
@@ -287,4 +319,5 @@ h1,h2,h3{ font-family:var(--font-display); text-transform:uppercase; letter-spac
   .nav.open{ display:flex; }
   .nav-toggle{ display:flex; }
   .nav__cta{ align-self:flex-start; }
+  .lang-toggle{ align-self:flex-start; }
 }
