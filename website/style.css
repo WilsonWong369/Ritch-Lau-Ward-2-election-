@@ -298,6 +298,36 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 .contact-form input:focus, .contact-form textarea:focus{ border-color:var(--red); outline:none; }
 .form-status{ font-size:0.85rem; color:var(--red); min-height:1.2em; margin:0; }
 
+/* Nav current page */
+.nav a.is-current{ color:var(--red); }
+.nav a.is-current::after{ transform:scaleX(1) !important; background:var(--red); }
+
+/* Bio hero */
+.hero--bio{ padding-bottom:64px; }
+.hero__inner--bio{ grid-template-columns:1.2fr 0.8fr; }
+.sign-card--portrait{ padding:10px; max-width:280px; }
+.sign-card--portrait img{ border-radius:8px; }
+
+/* Bio section */
+.section__inner--narrow{ max-width:760px; }
+.bio-text{ font-size:1.06rem; color:var(--ink-soft); margin:0 0 22px; max-width:66ch; }
+.bio-text:first-of-type{ font-size:1.16rem; color:var(--ink); }
+
+.fact-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:44px; }
+.fact-card{
+  background:var(--paper); border:2px solid var(--navy); border-radius:var(--radius);
+  padding:22px; text-align:center;
+}
+.fact-card__num{ font-family:var(--font-display); font-size:2.2rem; color:var(--red); margin:0 0 6px; }
+.fact-card__label{ font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.06em; color:var(--ink-soft); margin:0; text-transform:uppercase; }
+body[data-lang="zh"] .fact-card__label{ font-family:var(--font-zh); text-transform:none; letter-spacing:0.02em; }
+
+/* Bio CTA strip */
+.bio-cta{ text-align:center; display:flex; flex-direction:column; align-items:center; gap:26px; }
+.bio-cta .section__title{ max-width:22ch; }
+.btn--ghost-light{ border-color:var(--white); color:var(--white); }
+.btn--ghost-light:hover{ background:var(--white); color:var(--navy); }
+
 /* Footer */
 .site-footer{
   background:var(--navy-deep); color:rgba(250,247,242,0.65);
@@ -307,8 +337,9 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 
 /* ============ RESPONSIVE ============ */
 @media (max-width:920px){
-  .hero__inner, .section__inner--split{ grid-template-columns:1fr; }
+  .hero__inner, .hero__inner--bio, .section__inner--split{ grid-template-columns:1fr; }
   .hero__poster{ order:-1; }
+  .fact-row{ grid-template-columns:1fr; }
   .involve-grid{ grid-template-columns:1fr; }
   .nav{
     position:absolute; top:100%; left:0; right:0;
