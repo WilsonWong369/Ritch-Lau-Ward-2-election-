@@ -174,9 +174,13 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 .hero{ position:relative; overflow:hidden; padding:64px 24px 88px; }
 .hero__bg{
   position:absolute; inset:0; z-index:0;
+  overflow:hidden;
   background:
     radial-gradient(circle at 85% 12%, rgba(232,69,44,0.16), transparent 45%),
     radial-gradient(circle at 8% 85%, rgba(244,185,66,0.22), transparent 40%);
+}
+.hero__building{
+  position:absolute; bottom:0; left:0; width:100%; height:auto;
 }
 .hero__inner{
   position:relative; z-index:1;
