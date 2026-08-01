@@ -337,6 +337,23 @@ body[data-lang="zh"] .fact-card__label{ font-family:var(--font-zh); text-transfo
   text-align:center; padding:30px 24px; font-size:0.82rem;
 }
 .site-footer p{ margin:4px 0; }
+.footer__social{ display:flex; justify-content:center; gap:14px; margin-bottom:16px; }
+.footer__social a{
+  display:grid; place-items:center;
+  width:38px; height:38px; border-radius:50%;
+  background:rgba(250,247,242,0.08); color:rgba(250,247,242,0.85);
+  transition:background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.footer__social a:hover{ background:var(--red); color:var(--white); transform:translateY(-2px); }
+
+.social-pill{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:10px 18px; border-radius:999px;
+  border:2px solid var(--navy); color:var(--navy);
+  font-weight:700; font-size:0.9rem; text-decoration:none;
+  transition:background 0.15s ease, color 0.15s ease;
+}
+.social-pill:hover{ background:var(--navy); color:var(--white); }
 
 /* ============ RESPONSIVE ============ */
 @media (max-width:920px){
