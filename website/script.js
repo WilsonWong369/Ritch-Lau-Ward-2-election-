@@ -20,6 +20,20 @@ langToggle.addEventListener('click', () => {
 const savedLang = localStorage.getItem('ritchlau-lang');
 if (savedLang) setLang(savedLang);
 
+// Timeline scroll reveal
+const timelineItems = document.querySelectorAll('.timeline__item');
+if (timelineItems.length) {
+  const timelineObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        timelineObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  timelineItems.forEach(item => timelineObserver.observe(item));
+}
+
 // Ward 2 Neighbourhoods accordion
 document.querySelectorAll('.hood-card__head').forEach(btn => {
   btn.addEventListener('click', () => {
