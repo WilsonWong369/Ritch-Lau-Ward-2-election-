@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Re-Elect Ritch Lau — Ward 2 Markham 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-lang="en">
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span class="lang-en">CAMPAIGN LAUNCH · AUGUST 1</span><span class="lang-zh">競選啟動 · 8月1日</span>
+    <span>★</span>
+    <span class="lang-en">ELECTION DAY · OCTOBER 26</span><span class="lang-zh">選舉日 · 10月26日</span>
+    <span>★</span>
+    <span class="lang-en">WARD 2 · MARKHAM</span><span class="lang-zh">萬錦市 第二選區</span>
+    <span>★</span>
+    <span class="lang-en">CAMPAIGN LAUNCH · AUGUST 1</span><span class="lang-zh">競選啟動 · 8月1日</span>
+    <span>★</span>
+    <span class="lang-en">ELECTION DAY · OCTOBER 26</span><span class="lang-zh">選舉日 · 10月26日</span>
+    <span>★</span>
+    <span class="lang-en">WARD 2 · MARKHAM</span><span class="lang-zh">萬錦市 第二選區</span>
+    <span>★</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark">RL</span>
+      <span class="brand__text">RITCH LAU
+        <em class="brand__zh-name">劉肇麟</em>
+        <em class="lang-en">Ward 2</em><em class="lang-zh">第二選區</em>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#meet-ritch"><span class="lang-en">Meet Ritch</span><span class="lang-zh">認識劉肇麟</span></a>
+      <a href="#timeline"><span class="lang-en">Community Engagement</span><span class="lang-zh">社區參與</span></a>
+      <a href="#neighbourhoods"><span class="lang-en">Neighbourhoods</span><span class="lang-zh">社區</span></a>
+      <a href="#launch"><span class="lang-en">Launch Event</span><span class="lang-zh">啟動活動</span></a>
+      <a href="#involved"><span class="lang-en">Get Involved</span><span class="lang-zh">參與方式</span></a>
+      <a href="#services"><span class="lang-en">City Services</span><span class="lang-zh">市府服務</span></a>
+      <a href="#vote"><span class="lang-en">How to Vote</span><span class="lang-zh">投票方式</span></a>
+      <a href="#contact" class="nav__cta"><span class="lang-en">Join Team Ritch</span><span class="lang-zh">加入義工團隊</span></a>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-toggle__opt lang-toggle__opt--active" data-val="en">EN</span>
+        <span class="lang-toggle__opt" data-val="zh">中文</span>
+      </button>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="launch">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="lang-en">Municipal Election 2026 · Ward 2 Markham</span><span class="lang-zh">2026年市政選舉 · 萬錦市第二選區</span></p>
+        <h1 class="hero__title">
+          <span class="lang-en"><span>KEEP</span><span class="stroke">WARD 2</span><span>MOVING</span></span>
+          <span class="lang-zh"><span>攜手同心</span><span class="stroke">建設</span><span>第二選區</span></span>
+        </h1>
+        <p class="hero__lede">
+          <span class="lang-en">Ritch Lau launches his re-election campaign on <strong>August&nbsp;1</strong>, sharing his vision
+          for Ward 2 and unveiling the 2026 Campaign Platform. Join Team Ritch and help keep Ward 2
+          strong, safe, and connected.</span>
+          <span class="lang-zh">劉肇麟（Ritch Lau）將於<strong>8月1日</strong>正式啟動連任競選活動，分享他對第二選區的願景，並公布2026年競選政綱。歡迎加入義工團隊，共同守護一個強大、安全、緊密聯繫的第二選區。</span>
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary"><span class="lang-en">Join Team Ritch</span><span class="lang-zh">加入義工團隊</span></a>
+          <a href="#vote" class="btn btn--ghost btn--ghost-onhero"><span class="lang-en">How to Vote →</span><span class="lang-zh">投票方式 →</span></a>
+        </div>
+        <div class="hero__meta">
+          <div><span class="hero__meta-num">Oct 26</span><span class="hero__meta-label"><span class="lang-en">Election Day</span><span class="lang-zh">選舉日</span></span></div>
+          <div><span class="hero__meta-num">5</span><span class="hero__meta-label"><span class="lang-en">Neighbourhoods</span><span class="lang-zh">社區數目</span></span></div>
+          <div><span class="hero__meta-num">$0</span><span class="hero__meta-label"><span class="lang-en">Cost for a lawn sign</span><span class="lang-zh">草坪標誌費用</span></span></div>
+        </div>
+      </div>
+      <div class="hero__poster">
+        <div class="sign-card">
+          <p class="sign-card__eyebrow"><span class="lang-en">You're invited</span><span class="lang-zh">誠邀出席</span></p>
+          <p class="sign-card__date"><span class="lang-en">AUG 01</span><span class="lang-zh">8月1日</span></p>
+          <p class="sign-card__title"><span class="lang-en">Official Campaign Launch</span><span class="lang-zh">競選活動正式啟動</span></p>
+          <p class="sign-card__sub"><span class="lang-en">Vision for Ward 2 &amp; the 2026 Platform reveal</span><span class="lang-zh">第二選區願景與2026年政綱發布</span></p>
+          <img src="https://ritchlau.ca/wp-content/uploads/2026/07/0801_EventPoster-683x1024.webp" alt="Campaign launch event poster, August 1" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET RITCH -->
+  <section class="section section--flip" id="meet-ritch">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow"><span class="lang-en">Ward 2 Councillor</span><span class="lang-zh">第二選區市議員</span></p>
+        <h2 class="section__title"><span class="lang-en">Meet Ritch Lau</span><span class="lang-zh">認識劉肇麟</span></h2>
+        <p class="body-lg">
+          <span class="lang-en">Born in Hong Kong, Ritch immigrated to Canada with his family in 2000 at age 14 — an experience that shaped his appreciation for community and for helping residents feel heard. He lives in Markham with his wife, Loretta, their daughter, Leia, and son, Leon.</span>
+          <span class="lang-zh">劉肇麟出生於香港，2000年在14歲時隨家人移民加拿大，這段經歷讓他深深體會社區的重要性，以及讓居民感到被聆聽的意義。他與太太Loretta、女兒Leia及兒子Leon一同居於萬錦市。</span>
+        </p>
+        <p class="body-lg">
+          <span class="lang-en">Before public service, Ritch spent 15+ years in media and journalism as a radio host, reporter, and TV news anchor. He holds an Honours Specialist Degree in Mental Health Studies from UofT Scarborough and a Diploma in Early Childhood Education. Elected Ward 2 Councillor in 2022, he serves Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span>
+          <span class="lang-zh">投身公共服務前，劉肇麟從事傳媒及新聞行業超過15年，曾任電台主持、記者及電視新聞主播。他持有多倫多大學士嘉堡分校精神健康研究榮譽學位，以及幼兒教育文憑。他於2022年當選第二選區市議員，服務Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater各社區。</span>
+        </p>
+        <div class="hero__actions" style="margin-top:8px;">
+          <a href="https://www.facebook.com/ritchlau/" target="_blank" rel="noopener" class="social-pill" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/ritchlau/" target="_blank" rel="noopener" class="social-pill" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.59 1.8c.46-.16 1.26-.35 2.43-.4C9.29 1.34 9.67 1.33 12 1.33Zm0 1.8c-3.15 0-3.5.01-4.73.07-1.03.05-1.6.22-1.97.36-.5.19-.85.42-1.22.79-.37.37-.6.72-.79 1.22-.14.37-.31.94-.36 1.97-.06 1.23-.07 1.58-.07 4.73s.01 3.5.07 4.73c.05 1.03.22 1.6.36 1.97.19.5.42.85.79 1.22.37.37.72.6 1.22.79.37.14.94.31 1.97.36 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c1.03-.05 1.6-.22 1.97-.36.5-.19.85-.42 1.22-.79.37-.37.6-.72.79-1.22.14-.37.31-.94.36-1.97.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.05-1.03-.22-1.6-.36-1.97a3.1 3.1 0 0 0-.79-1.22 3.1 3.1 0 0 0-1.22-.79c-.37-.14-.94-.31-1.97-.36-1.23-.06-1.58-.07-4.73-.07Zm0 3.32a5.68 5.68 0 1 1 0 11.36 5.68 5.68 0 0 1 0-11.36Zm0 1.8a3.88 3.88 0 1 0 0 7.76 3.88 3.88 0 0 0 0-7.76Zm5.9-1.98a1.33 1.33 0 1 1-2.66 0 1.33 1.33 0 0 1 2.66 0Z"/></svg>
+            Instagram
+          </a>
+          <a href="https://ca.linkedin.com/in/ritchlau" target="_blank" rel="noopener" class="social-pill" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.37 4.25 5.44v6.3ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <div class="fact-row fact-row--inline">
+          <div class="fact-card">
+            <p class="fact-card__num">15+</p>
+            <p class="fact-card__label"><span class="lang-en">Years in media</span><span class="lang-zh">傳媒年資</span></p>
+          </div>
+          <div class="fact-card">
+            <p class="fact-card__num">2022</p>
+            <p class="fact-card__label"><span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span></p>
+          </div>
+          <div class="fact-card">
+            <p class="fact-card__num">6</p>
+            <p class="fact-card__label"><span class="lang-en">Communities served</span><span class="lang-zh">服務社區</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="split__map">
+        <div class="sign-card sign-card--portrait">
+          <img src="https://ritchlau.ca/wp-content/uploads/2026/05/HZ8_0651_edited-768x1152.webp" alt="Ritch Lau portrait" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section section--flip" id="timeline">
+    <div class="section__inner">
+      <p class="eyebrow"><span class="lang-en">His journey</span><span class="lang-zh">他的歷程</span></p>
+      <h2 class="section__title"><span class="lang-en">Community Engagement</span><span class="lang-zh">社區參與</span></h2>
+      <p class="body-lg" style="margin-bottom:8px;">
+        <span class="lang-en">Click any point on the timeline to see more.</span>
+        <span class="lang-zh">點擊時間線上任何一點，查看詳情。</span>
+      </p>
+
+      <div class="hz-timeline" id="hzTimeline">
+        <div class="hz-timeline__track">
+          <div class="hz-timeline__line"></div>
+
+          <button class="hz-node hz-node--active" data-target="tl-0" aria-expanded="true">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">May 2022</span>
+            <span class="hz-node__label"><span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-1" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">Oct 2022</span>
+            <span class="hz-node__label"><span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-2" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">2022–2026</span>
+            <span class="hz-node__label"><span class="lang-en">Traffic safety push</span><span class="lang-zh">爭取交通安全</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-3" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">2022–2026</span>
+            <span class="hz-node__label"><span class="lang-en">Community Centre advocacy</span><span class="lang-zh">爭取興建社區中心</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-4" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">2022–2026</span>
+            <span class="hz-node__label"><span class="lang-en">Resident casework</span><span class="lang-zh">為居民跟進個案</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-5" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">Aug 2026</span>
+            <span class="hz-node__label"><span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span></span>
+          </button>
+
+          <button class="hz-node" data-target="tl-6" aria-expanded="false">
+            <span class="hz-node__dot"></span>
+            <span class="hz-node__year">2026–2030</span>
+            <span class="hz-node__label"><span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hz-panels" id="hzPanels">
+
+        <article class="hz-panel hz-panel--active" id="tl-0">
+          <div class="hz-panel__media hz-panel__media--icon">
+            <svg viewBox="0 0 64 64" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 48 L52 48 M20 48 L20 24 L32 12 L44 24 L44 48"/></svg>
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow">May 5, 2022</p>
+            <h3><span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span></h3>
+            <p><span class="lang-en">Ritch is the first to register as a candidate for Ward 2, launching his campaign with a focus on traffic safety, budget management, and more recreational and green space for the community.</span><span class="lang-zh">劉肇麟成為第二選區首位登記參選人，競選重點包括交通安全、財政管理，以及增加社區康樂及綠化空間。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-1">
+          <div class="hz-panel__media">
+            <img src="https://ritchlau.ca/wp-content/uploads/2026/05/HZ8_0651_edited-768x1152.webp" alt="Ritch Lau portrait" loading="lazy">
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow"><span class="lang-en">October 2022</span><span class="lang-zh">2022年10月</span></p>
+            <h3><span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span></h3>
+            <p><span class="lang-en">Wins the 2022 Municipal Election with 3,012 votes, becoming Councillor for Ward 2 and beginning direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-2">
+          <div class="hz-panel__media hz-panel__media--icon">
+            <svg viewBox="0 0 64 64" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="32" cy="32" r="22"/><path d="M32 20 L32 32 L42 38"/></svg>
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow"><span class="lang-en">First Term, 2022–2026</span><span class="lang-zh">首個任期，2022至2026年</span></p>
+            <h3><span class="lang-en">Working on traffic safety</span><span class="lang-zh">推動交通安全</span></h3>
+            <p><span class="lang-en">As a young father himself, Ritch made speeding and neighbourhood traffic safety a priority, working with community groups and York Regional Police to make Ward 2 streets safer for families.</span><span class="lang-zh">身為年輕父親，劉肇麟將超速及社區交通安全列為首要工作，與社區組織及約克區警察合作，致力令第二選區的街道對家庭更安全。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-3">
+          <div class="hz-panel__media">
+            <img src="https://ritchlau.ca/wp-content/uploads/2026/07/Ward2Map-768x960.webp" alt="Ward 2 map" loading="lazy">
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow"><span class="lang-en">First Term, 2022–2026</span><span class="lang-zh">首個任期，2022至2026年</span></p>
+            <h3><span class="lang-en">Pushing for a Ward 2 Community Centre</span><span class="lang-zh">爭取興建第二選區社區中心</span></h3>
+            <p><span class="lang-en">Ritch has raised the question of why Ward 2 has never had its own community centre, and has advocated for a new multi-purpose facility to serve residents directly and ease pressure on Ward 6's Angus Glen Community Centre.</span><span class="lang-zh">劉肇麟一直質疑為何第二選區從未擁有自己的社區中心，並爭取興建新的多用途設施，直接服務區內居民，同時紓緩Angus Glen社區中心（第六選區）的使用壓力。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-4">
+          <div class="hz-panel__media hz-panel__media--icon">
+            <svg viewBox="0 0 64 64" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10 20 L54 20 L54 44 L26 44 L14 54 L16 44 L10 44 Z"/></svg>
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow"><span class="lang-en">First Term, 2022–2026</span><span class="lang-zh">首個任期，2022至2026年</span></p>
+            <h3><span class="lang-en">Direct resident casework</span><span class="lang-zh">直接為居民跟進個案</span></h3>
+            <p><span class="lang-en">Ritch personally responds to residents through emails, phone calls, WhatsApp, and neighbourhood group chats — helping with traffic safety, tree maintenance, parks, roads, by-law concerns, and construction impacts, and connecting cases with the right City staff.</span><span class="lang-zh">劉肇麟親自透過電郵、電話、WhatsApp及社區群組回應居民，協助處理交通安全、樹木維護、公園、道路、法規事宜及工程影響等問題，並將個案轉介予相關市府部門跟進。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-5">
+          <div class="hz-panel__media">
+            <img src="https://ritchlau.ca/wp-content/uploads/2026/07/0801_EventPoster-683x1024.webp" alt="Campaign launch poster" loading="lazy">
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow">Aug 1, 2026</p>
+            <h3><span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span></h3>
+            <p><span class="lang-en">Officially launches his re-election campaign, sharing his vision for Ward 2 and unveiling the 2026 Campaign Platform.</span><span class="lang-zh">正式啟動連任競選活動，分享他對第二選區的願景，並公布2026年競選政綱。</span></p>
+          </div>
+        </article>
+
+        <article class="hz-panel" id="tl-6">
+          <div class="hz-panel__media hz-panel__media--icon">
+            <svg viewBox="0 0 64 64" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M32 8 L38 24 L56 24 L42 34 L48 52 L32 42 L16 52 L22 34 L8 24 L26 24 Z"/></svg>
+          </div>
+          <div class="hz-panel__text">
+            <p class="hz-panel__eyebrow"><span class="lang-en">2026–2030</span><span class="lang-zh">2026至2030年</span></p>
+            <h3><span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span></h3>
+            <p><span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WARD 2 NEIGHBOURHOODS -->
+  <section class="section" id="neighbourhoods">
+    <div class="section__inner">
+      <p class="eyebrow"><span class="lang-en">Where you live</span><span class="lang-zh">您的社區</span></p>
+      <h2 class="section__title"><span class="lang-en">Ward 2 Neighbourhoods</span><span class="lang-zh">第二選區社區</span></h2>
+      <p class="body-lg" style="margin-bottom:36px;">
+        <span class="lang-en">Ward 2 is made up of five distinct neighbourhoods. Tap each one to see what makes it unique and the issues residents raise most often.</span>
+        <span class="lang-zh">第二選區由五個各具特色的社區組成。點擊各社區，了解其特色以及居民最常反映的議題。</span>
+      </p>
+
+      <div class="hood-grid" id="hoodGrid">
+
+        <article class="hood-card is-open" data-hood="buttonville">
+          <button class="hood-card__head" type="button" aria-expanded="true">
+            <span class="hood-card__name"><span class="lang-en">Buttonville</span><span class="lang-zh">畢頓維爾</span></span>
+            <span class="hood-card__chevron">＋</span>
+          </button>
+          <div class="hood-card__body">
+            <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+            <p><span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major mixed-use redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前畢頓維爾機場用地為中心的住宅區，現正轉型為大型綜合發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span></p>
+            <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+            <ul>
+              <li><span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">畢頓維爾重建項目的速度與規模</span></li>
+              <li><span class="lang-en">Traffic flow along Hwy 404 corridor</span><span class="lang-zh">404號公路沿線的交通流量</span></li>
+              <li><span class="lang-en">Ensuring new parks and schools keep pace with growth</span><span class="lang-zh">新公園及學校設施能否跟上發展步伐</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="hood-card" data-hood="cachet">
+          <button class="hood-card__head" type="button" aria-expanded="false">
+            <span class="hood-card__name"><span class="lang-en">Cachet</span><span class="lang-zh">卡切特</span></span>
+            <span class="hood-card__chevron">＋</span>
+          </button>
+          <div class="hood-card__body">
+            <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+            <p><span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校。</span></p>
+            <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+            <ul>
+              <li><span class="lang-en">Protecting mature trees during construction nearby</span><span class="lang-zh">附近工程期間保護成熟樹木</span></li>
+              <li><span class="lang-en">School capacity and safe walking routes</span><span class="lang-zh">學校學額及安全步行路線</span></li>
+              <li><span class="lang-en">Speeding and traffic calming on residential streets</span><span class="lang-zh">住宅街道超速問題及減速措施</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="hood-card" data-hood="cathedraltown">
+          <button class="hood-card__head" type="button" aria-expanded="false">
+            <span class="hood-card__name"><span class="lang-en">Cathedraltown</span><span class="lang-zh">天主教堂鎮</span></span>
+            <span class="hood-card__chevron">＋</span>
+          </button>
+          <div class="hood-card__body">
+            <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+            <p><span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道。</span></p>
+            <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+            <ul>
+              <li><span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span></li>
+              <li><span class="lang-en">Stormwater and drainage management</span><span class="lang-zh">雨水及排水系統管理</span></li>
+              <li><span class="lang-en">Transit access for a newer community</span><span class="lang-zh">新社區的公共交通接駁</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="hood-card" data-hood="victoria-square">
+          <button class="hood-card__head" type="button" aria-expanded="false">
+            <span class="hood-card__name"><span class="lang-en">Victoria Square</span><span class="lang-zh">維多利亞廣場</span></span>
+            <span class="hood-card__chevron">＋</span>
+          </button>
+          <div class="hood-card__body">
+            <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+            <p><span class="lang-en">One of Markham's older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色。</span></p>
+            <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+            <ul>
+              <li><span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span></li>
+              <li><span class="lang-en">Road capacity as surrounding areas intensify</span><span class="lang-zh">周邊地區發展加密下的道路承載力</span></li>
+              <li><span class="lang-en">Sidewalk and cycling connections to newer subdivisions</span><span class="lang-zh">連接新社區的行人道及單車徑</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="hood-card" data-hood="springwater">
+          <button class="hood-card__head" type="button" aria-expanded="false">
+            <span class="hood-card__name"><span class="lang-en">Springwater</span><span class="lang-zh">泉水社區</span></span>
+            <span class="hood-card__chevron">＋</span>
+          </button>
+          <div class="hood-card__body">
+            <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+            <p><span class="lang-en">A quieter residential pocket near Warden Ave and 19th Ave, bordering Ward 2's northern edge, valued for its parks and lower-density streets.</span><span class="lang-zh">位於Warden Ave及19 Ave附近的寧靜住宅區，緊鄰第二選區北面邊界，以公園及低密度街道見稱。</span></p>
+            <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+            <ul>
+              <li><span class="lang-en">Maintenance of local parks and green space</span><span class="lang-zh">社區公園及綠化空間的維護</span></li>
+              <li><span class="lang-en">Cut-through traffic from neighbouring wards</span><span class="lang-zh">鄰近選區車輛穿梭造成的交通問題</span></li>
+              <li><span class="lang-en">Street lighting and winter road maintenance</span><span class="lang-zh">路燈及冬季道路維修</span></li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="section" id="involved">
+    <div class="section__inner">
+      <p class="eyebrow"><span class="lang-en">Get involved</span><span class="lang-zh">參與方式</span></p>
+      <h2 class="section__title"><span class="lang-en">Three ways to back the ward</span><span class="lang-zh">三種支持方式</span></h2>
+      <div class="involve-grid">
+        <article class="involve-card involve-card--red">
+          <p class="involve-card__index"><span class="lang-en">Sign</span><span class="lang-zh">標誌</span></p>
+          <h3><span class="lang-en">Display a lawn sign</span><span class="lang-zh">擺放草坪標誌</span></h3>
+          <p><span class="lang-en">Request a free lawn sign for your yard. Volunteers begin installing as early as mid-August, subject to election rules and availability.</span><span class="lang-zh">免費申請草坪標誌。義工最早將於8月中開始安裝，視乎選舉規則及供應情況而定。</span></p>
+          <a class="text-link" href="https://forms.gle/s9P6NJmXpC2NQHho8" target="_blank" rel="noopener"><span class="lang-en">Request a sign →</span><span class="lang-zh">申請標誌 →</span></a>
+          <p class="involve-card__fine"><span class="lang-en">Removed within 48 hours after Oct 26 — no need to take it down yourself.</span><span class="lang-zh">10月26日後48小時內由義工移除，無需自行拆除。</span></p>
+        </article>
+        <article class="involve-card involve-card--navy">
+          <p class="involve-card__index"><span class="lang-en">Volunteer</span><span class="lang-zh">義工</span></p>
+          <h3><span class="lang-en">Join the campaign team</span><span class="lang-zh">加入競選團隊</span></h3>
+          <p><span class="lang-en">Canvass, help at events, or support behind the scenes. Every volunteer hour keeps Ward 2 strong, safe, and connected.</span><span class="lang-zh">協助拉票、活動支援或幕後工作。每一分鐘的義工時間，都讓第二選區更強大、更安全、更緊密。</span></p>
+          <a class="text-link" href="#contact"><span class="lang-en">Sign up below →</span><span class="lang-zh">請於下方報名 →</span></a>
+          <p class="involve-card__fine">支持義工團隊 — <span class="lang-en">Support the volunteer team</span><span class="lang-zh">支持義工團隊</span></p>
+        </article>
+        <article class="involve-card involve-card--gold">
+          <p class="involve-card__index"><span class="lang-en">Donate</span><span class="lang-zh">捐款</span></p>
+          <h3><span class="lang-en">Support the campaign</span><span class="lang-zh">支持競選活動</span></h3>
+          <p><span class="lang-en">Contributions help fund signs, events, and outreach across Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">您的捐款將用於標誌製作、活動舉辦及社區聯繫，涵蓋 Buttonville、Cachet、Cathedraltown、Victoria Square 及 Springwater 各社區。</span></p>
+          <a class="text-link" href="#contact"><span class="lang-en">Get in touch →</span><span class="lang-zh">聯絡我們 →</span></a>
+          <p class="involve-card__fine"><span class="lang-en">Email Ward2@ritchlau.ca</span><span class="lang-zh">電郵：Ward2@ritchlau.ca</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--flip" id="services">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow"><span class="lang-en">Between elections</span><span class="lang-zh">日常市政服務</span></p>
+        <h2 class="section__title"><span class="lang-en">Something not right on your street?</span><span class="lang-zh">街道上有問題嗎？</span></h2>
+        <p class="body-lg"><span class="lang-en">Markham's online system makes it easy to submit a request for service — get a tracking number and check the status any time.</span><span class="lang-zh">萬錦市的網上系統讓您輕鬆提交服務申請，並獲得追蹤編號，隨時查詢處理進度。</span></p>
+        <div class="chip-row">
+          <span class="chip"><span class="lang-en">Garbage</span><span class="lang-zh">垃圾</span></span>
+          <span class="chip"><span class="lang-en">Parks</span><span class="lang-zh">公園</span></span>
+          <span class="chip"><span class="lang-en">Trees</span><span class="lang-zh">樹木</span></span>
+          <span class="chip"><span class="lang-en">Street Lights</span><span class="lang-zh">路燈</span></span>
+          <span class="chip"><span class="lang-en">Graffiti</span><span class="lang-zh">塗鴉</span></span>
+          <span class="chip"><span class="lang-en">Potholes</span><span class="lang-zh">路面坑洞</span></span>
+        </div>
+        <a class="btn btn--primary" href="https://www.markham.ca/services/report-a-problem" target="_blank" rel="noopener"><span class="lang-en">Report or track a problem →</span><span class="lang-zh">提交或追蹤申請 →</span></a>
+      </div>
+      <div class="split__map">
+        <div class="map-card">
+          <p class="map-card__label"><span class="lang-en">Ward 2 Boundary</span><span class="lang-zh">第二選區範圍</span></p>
+          <ul class="map-card__bounds">
+            <li><strong><span class="lang-en">West</span><span class="lang-zh">西</span></strong> <span class="lang-en">to Hwy 404</span><span class="lang-zh">至404號公路</span></li>
+            <li><strong><span class="lang-en">East</span><span class="lang-zh">東</span></strong> <span class="lang-en">to Warden Ave</span><span class="lang-zh">至 Warden Ave</span></li>
+            <li><strong><span class="lang-en">South</span><span class="lang-zh">南</span></strong> <span class="lang-en">to Hwy 7</span><span class="lang-zh">至7號公路</span></li>
+            <li><strong><span class="lang-en">North</span><span class="lang-zh">北</span></strong> <span class="lang-en">to 19th Ave</span><span class="lang-zh">至19 Ave</span></li>
+          </ul>
+          <img src="https://ritchlau.ca/wp-content/uploads/2026/07/Ward2Map-768x960.webp" alt="Map of Markham Ward 2 boundaries" loading="lazy">
+          <p class="map-card__hoods">Buttonville · Cachet · Cathedraltown · Victoria Square · Springwater</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO VOTE -->
+  <section class="section" id="vote">
+    <div class="section__inner">
+      <p class="eyebrow"><span class="lang-en">Elections Markham</span><span class="lang-zh">萬錦市選舉事務處</span></p>
+      <h2 class="section__title"><span class="lang-en">How to vote — three options</span><span class="lang-zh">投票方式 — 三種選擇</span></h2>
+      <ol class="vote-steps">
+        <li class="vote-step">
+          <span class="vote-step__num">01</span>
+          <div>
+            <h3><span class="lang-en">Vote online</span><span class="lang-zh">網上投票</span></h3>
+            <p class="vote-step__dates"><span class="lang-en">October 16 – October 26</span><span class="lang-zh">10月16日至10月26日</span></p>
+            <p><span class="lang-en">Vote anywhere, anytime during voting days, from your computer or mobile device.</span><span class="lang-zh">投票期間，隨時隨地使用電腦或手機投票。</span></p>
+          </div>
+        </li>
+        <li class="vote-step">
+          <span class="vote-step__num">02</span>
+          <div>
+            <h3><span class="lang-en">Vote at a voting place</span><span class="lang-zh">親臨投票站投票</span></h3>
+            <p class="vote-step__dates"><span class="lang-en">October 23 – October 26</span><span class="lang-zh">10月23日至10月26日</span></p>
+            <p><span class="lang-en">Vote in person at any voting place in Markham.</span><span class="lang-zh">親臨萬錦市任何一個投票站投票。</span></p>
+          </div>
+        </li>
+        <li class="vote-step">
+          <span class="vote-step__num">03</span>
+          <div>
+            <h3><span class="lang-en">Vote by special ballot</span><span class="lang-zh">特別選票投票</span></h3>
+            <p class="vote-step__dates"><span class="lang-en">September 28 – October 22, Mon–Fri, by appointment</span><span class="lang-zh">9月28日至10月22日，週一至週五，須預約</span></p>
+            <p><span class="lang-en">Vote at Elections Markham Headquarters, Markham Civic Centre.</span><span class="lang-zh">於萬錦市政中心的選舉事務處總部投票。</span></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--dark" id="contact">
+    <div class="section__inner section__inner--split">
+      <div class="split__text">
+        <p class="eyebrow eyebrow--light"><span class="lang-en">Join Team Ritch</span><span class="lang-zh">加入義工團隊</span></p>
+        <h2 class="section__title section__title--light"><span class="lang-en">Support now by donating or volunteering</span><span class="lang-zh">立即捐助或加入義工團隊</span></h2>
+        <p class="body-lg body-lg--light">捐助或加入義工團隊，即刻聯絡我！</p>
+        <p class="body-lg body-lg--light"><span class="lang-en">Email:</span><span class="lang-zh">電郵：</span> <a href="mailto:ward2@ritchlau.ca">ward2@ritchlau.ca</a></p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>
+          <span>Name / 姓名</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email / 電子郵件</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Message / 留言</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--block"><span class="lang-en">Send</span><span class="lang-zh">送出</span></button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer__social">
+    <a href="https://www.facebook.com/ritchlau/" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/ritchlau/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.59 1.8c.46-.16 1.26-.35 2.43-.4C9.29 1.34 9.67 1.33 12 1.33Zm0 1.8c-3.15 0-3.5.01-4.73.07-1.03.05-1.6.22-1.97.36-.5.19-.85.42-1.22.79-.37.37-.6.72-.79 1.22-.14.37-.31.94-.36 1.97-.06 1.23-.07 1.58-.07 4.73s.01 3.5.07 4.73c.05 1.03.22 1.6.36 1.97.19.5.42.85.79 1.22.37.37.72.6 1.22.79.37.14.94.31 1.97.36 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c1.03-.05 1.6-.22 1.97-.36.5-.19.85-.42 1.22-.79.37-.37.6-.72.79-1.22.14-.37.31-.94.36-1.97.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.05-1.03-.22-1.6-.36-1.97a3.1 3.1 0 0 0-.79-1.22 3.1 3.1 0 0 0-1.22-.79c-.37-.14-.94-.31-1.97-.36-1.23-.06-1.58-.07-4.73-.07Zm0 3.32a5.68 5.68 0 1 1 0 11.36 5.68 5.68 0 0 1 0-11.36Zm0 1.8a3.88 3.88 0 1 0 0 7.76 3.88 3.88 0 0 0 0-7.76Zm5.9-1.98a1.33 1.33 0 1 1-2.66 0 1.33 1.33 0 0 1 2.66 0Z"/></svg>
+    </a>
+    <a href="https://ca.linkedin.com/in/ritchlau" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.37 4.25 5.44v6.3ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+    </a>
+  </div>
+  <p><span class="lang-en">Authorized by the Official Agent of Ritch Lau Campaign</span><span class="lang-zh">由劉肇麟競選活動法定代理人授權發布</span></p>
+  <p>All Rights Reserved © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
