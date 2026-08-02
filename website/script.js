@@ -20,19 +20,26 @@ langToggle.addEventListener('click', () => {
 const savedLang = localStorage.getItem('ritchlau-lang');
 if (savedLang) setLang(savedLang);
 
-// Timeline scroll reveal
-const timelineItems = document.querySelectorAll('.timeline__item');
-if (timelineItems.length) {
-  const timelineObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        timelineObserver.unobserve(entry.target);
-      }
+// Horizontal Timeline (click to switch)
+const hzNodes = document.querySelectorAll('.hz-node');
+const hzPanels = document.querySelectorAll('.hz-panel');
+
+hzNodes.forEach(node => {
+  node.addEventListener('click', () => {
+    const targetId = node.dataset.target;
+
+    hzNodes.forEach(n => {
+      n.classList.remove('hz-node--active');
+      n.setAttribute('aria-expanded', 'false');
     });
-  }, { threshold: 0.3 });
-  timelineItems.forEach(item => timelineObserver.observe(item));
-}
+    node.classList.add('hz-node--active');
+    node.setAttribute('aria-expanded', 'true');
+
+    hzPanels.forEach(p => p.classList.remove('hz-panel--active'));
+    const targetPanel = document.getElementById(targetId);
+    if (targetPanel) targetPanel.classList.add('hz-panel--active');
+  });
+});
 
 // Ward 2 Neighbourhoods accordion
 document.querySelectorAll('.hood-card__head').forEach(btn => {

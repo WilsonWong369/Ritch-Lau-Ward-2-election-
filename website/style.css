@@ -188,10 +188,6 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
     radial-gradient(circle at 85% 12%, rgba(255,255,255,0.08), transparent 45%),
     radial-gradient(circle at 8% 85%, rgba(255,255,255,0.06), transparent 40%);
 }
-.hero__building{
-  position:absolute; bottom:0; left:0; width:100%; height:auto;
-  opacity:0.35;
-}
 .hero__inner{
   position:relative; z-index:1;
   max-width:1180px; margin:0 auto;
@@ -283,48 +279,91 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 .map-card img{ border-radius:8px; margin:8px 0; }
 .map-card__hoods{ font-size:0.86rem; color:var(--ink-soft); text-align:center; margin:8px 0 0; }
 
-/* Timeline */
-.timeline{
-  list-style:none; margin:44px 0 0; padding:0;
+/* Horizontal Timeline */
+.hz-timeline{
+  overflow-x:auto;
+  margin:36px 0 40px;
+  padding-bottom:8px;
+  -webkit-overflow-scrolling:touch;
+}
+.hz-timeline__track{
   position:relative;
-  max-width:760px;
+  display:flex;
+  gap:8px;
+  min-width:760px;
+  padding:10px 4px 0;
 }
-.timeline::before{
-  content:"";
-  position:absolute; left:9px; top:6px; bottom:6px; width:2px;
-  background:var(--line);
+.hz-timeline__line{
+  position:absolute; left:0; right:0; top:29px;
+  height:2px; background:var(--line);
+  z-index:0;
 }
-.timeline__item{
-  position:relative;
-  padding-left:44px;
-  padding-bottom:36px;
-  opacity:0; transform:translateY(14px);
-  transition:opacity 0.5s ease, transform 0.5s ease;
+.hz-node{
+  position:relative; z-index:1;
+  flex:1;
+  display:flex; flex-direction:column; align-items:center; gap:10px;
+  background:none; border:0; cursor:pointer;
+  padding:0 6px 4px;
 }
-.timeline__item.is-visible{ opacity:1; transform:translateY(0); }
-.timeline__item:last-child{ padding-bottom:0; }
-.timeline__dot{
-  position:absolute; left:0; top:4px;
-  width:20px; height:20px; border-radius:50%;
+.hz-node__dot{
+  width:18px; height:18px; border-radius:50%;
   background:var(--white); border:3px solid var(--navy);
-  z-index:1;
+  transition:background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
-.timeline__dot--active{
+.hz-node:hover .hz-node__dot{ transform:scale(1.15); }
+.hz-node--active .hz-node__dot{
   background:var(--red); border-color:var(--red);
   box-shadow:0 0 0 5px rgba(232,69,44,0.18);
 }
-.timeline__year{
-  font-family:var(--font-mono); font-weight:700; font-size:0.82rem;
-  letter-spacing:0.08em; text-transform:uppercase; color:var(--red);
-  margin:0 0 6px;
+.hz-node__year{
+  font-family:var(--font-mono); font-weight:700; font-size:0.76rem;
+  letter-spacing:0.06em; text-transform:uppercase; color:var(--red);
+  text-align:center;
 }
-.timeline__content h3{
-  font-family:var(--font-body); font-weight:800; font-size:1.18rem;
-  text-transform:none; letter-spacing:0; margin:0 0 6px;
-  color:var(--navy);
+.hz-node__label{
+  font-size:0.84rem; font-weight:600; color:var(--ink-soft);
+  text-align:center; max-width:120px; line-height:1.25;
 }
-body[data-lang="zh"] .timeline__content h3{ font-family:var(--font-zh); }
-.timeline__content p:last-child{ color:var(--ink-soft); margin:0; max-width:60ch; }
+.hz-node--active .hz-node__label{ color:var(--navy); }
+body[data-lang="zh"] .hz-node__label{ font-family:var(--font-zh); }
+
+.hz-panels{ position:relative; }
+.hz-panel{
+  display:none;
+  grid-template-columns:220px 1fr;
+  gap:32px;
+  align-items:center;
+  background:var(--paper);
+  border:2px solid var(--line);
+  border-radius:var(--radius);
+  padding:28px;
+}
+.hz-panel--active{ display:grid; }
+.hz-panel__media{
+  width:100%; aspect-ratio:3/4;
+  border-radius:10px; overflow:hidden;
+  background:var(--white); border:2px solid var(--navy);
+}
+.hz-panel__media img{ width:100%; height:100%; object-fit:cover; }
+.hz-panel__media--icon{
+  display:flex; align-items:center; justify-content:center;
+  color:var(--navy); background:rgba(74,44,130,0.06);
+}
+.hz-panel__eyebrow{
+  font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.1em;
+  text-transform:uppercase; color:var(--red); margin:0 0 8px; font-weight:700;
+}
+.hz-panel__text h3{
+  font-family:var(--font-body); font-weight:800; font-size:1.32rem;
+  text-transform:none; letter-spacing:0; margin:0 0 10px; color:var(--navy);
+}
+body[data-lang="zh"] .hz-panel__text h3{ font-family:var(--font-zh); }
+.hz-panel__text p:last-child{ color:var(--ink-soft); margin:0; max-width:60ch; }
+
+@media (max-width:640px){
+  .hz-panel{ grid-template-columns:1fr; }
+  .hz-panel__media{ max-width:200px; margin:0 auto; }
+}
 
 /* Ward 2 Neighbourhoods accordion */
 .hood-grid{ display:flex; flex-direction:column; gap:14px; }
