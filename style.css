@@ -11,7 +11,7 @@
   --line: rgba(11,37,69,0.14);
   --white: #ffffff;
 
-  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
   --font-body: "Work Sans", -apple-system, sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
   --font-zh: "Noto Sans TC", "Work Sans", -apple-system, sans-serif;
@@ -32,7 +32,7 @@ body{
 }
 img{ max-width:100%; display:block; }
 a{ color:inherit; }
-h1,h2,h3{ font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.01em; margin:0; }
+h1,h2,h3{ font-family:var(--font-display); font-weight:700; text-transform:uppercase; letter-spacing:0.01em; margin:0; }
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration:0.001ms !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
 }
@@ -126,6 +126,7 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
   background:linear-gradient(135deg, var(--white), rgba(255,255,255,0.85));
   color:var(--navy);
   font-family:var(--font-display);
+  font-weight:700;
   font-size:1.1rem;
   border-radius:11px;
   transform:rotate(-4deg);
@@ -134,7 +135,7 @@ body[data-lang="zh"] .brand__text em{ font-family:var(--font-zh); }
 }
 .brand:hover .brand__mark{ transform:rotate(0deg) scale(1.05); }
 .brand__text{
-  font-family:var(--font-display); font-size:1.05rem; letter-spacing:0.02em;
+  font-family:var(--font-display); font-weight:700; font-size:1.05rem; letter-spacing:0.02em;
   text-transform:uppercase; color:var(--white);
   display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;
 }
@@ -253,7 +254,7 @@ body[data-lang="zh"] .hero__title .lang-zh{
 .hero__actions{ display:flex; gap:16px; flex-wrap:wrap; margin-bottom:40px; }
 .hero__meta{ display:flex; gap:34px; flex-wrap:wrap; }
 .hero__meta > div{ display:flex; flex-direction:column; }
-.hero__meta-num{ font-family:var(--font-display); font-size:1.7rem; color:var(--white); }
+.hero__meta-num{ font-family:var(--font-display); font-weight:700; font-size:1.7rem; color:var(--white); }
 .hero__meta-label{ font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.08em; color:rgba(255,255,255,0.68); text-transform:uppercase; }
 
 .hero__poster{ display:flex; justify-content:center; }
@@ -269,10 +270,29 @@ body[data-lang="zh"] .hero__title .lang-zh{
 }
 .sign-card:hover{ transform:rotate(0deg); }
 .sign-card__eyebrow{ font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--red); margin:0; }
-.sign-card__date{ font-family:var(--font-display); font-size:1.9rem; color:var(--navy); margin:4px 0; }
+.sign-card__date{ font-family:var(--font-display); font-weight:700; font-size:1.9rem; color:var(--navy); margin:4px 0; }
 .sign-card__title{ font-weight:700; margin:0 0 2px; }
 .sign-card__sub{ font-size:0.88rem; color:var(--ink-soft); margin:0 0 14px; }
 .sign-card img{ border-radius:8px; }
+
+.sign-card--priorities{
+  background:linear-gradient(165deg, rgba(255,255,255,0.14), rgba(255,255,255,0.05));
+  border:1.5px solid rgba(255,255,255,0.28);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  box-shadow:0 24px 48px rgba(11,7,26,0.35);
+  transform:rotate(0deg); max-width:340px;
+}
+.sign-card--priorities:hover{ transform:rotate(0deg); }
+.sign-card--priorities .sign-card__eyebrow{ color:var(--gold); }
+.sign-card--priorities .sign-card__title{ font-size:1.15rem; margin-bottom:16px; color:var(--white); }
+.priority-list{ list-style:none; margin:0 0 18px; padding:0; display:flex; flex-direction:column; gap:14px; }
+.priority-list li{ display:flex; align-items:center; gap:14px; }
+.priority-list svg{ flex-shrink:0; color:var(--gold); }
+.priority-list span{ font-weight:600; color:var(--white); font-size:0.96rem; }
+body[data-lang="zh"] .priority-list span{ font-family:var(--font-zh); }
+.sign-card--priorities .text-link{ color:var(--gold); }
+.sign-card--priorities .text-link:hover{ color:var(--white); }
 
 /* ============ SECTIONS ============ */
 .section{ padding:88px 24px; }
@@ -411,6 +431,110 @@ body[data-lang="zh"] .hz-panel__text h3{ font-family:var(--font-zh); }
   .hz-panel__media{ max-width:200px; margin:0 auto; }
 }
 
+/* Ward 2 interactive map */
+.ward-map-wrap{
+  display:grid; grid-template-columns:1.3fr 1fr; gap:24px;
+  margin-bottom:36px; align-items:stretch;
+}
+.ward-map{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  grid-template-areas:
+    "victoria victoria springwater"
+    "buttonville cachet cathedraltown";
+  gap:10px;
+  min-height:340px;
+  padding:18px;
+  border:2px solid var(--navy);
+  border-radius:var(--radius);
+  background:
+    repeating-linear-gradient(0deg, rgba(74,44,130,0.05) 0px, rgba(74,44,130,0.05) 1px, transparent 1px, transparent 34px),
+    repeating-linear-gradient(90deg, rgba(74,44,130,0.05) 0px, rgba(74,44,130,0.05) 1px, transparent 1px, transparent 34px),
+    var(--paper);
+}
+.ward-map__zone{
+  position:relative;
+  overflow:hidden;
+  display:flex; align-items:flex-end; justify-content:center;
+  border:2px solid rgba(11,37,69,0.25);
+  border-radius:10px;
+  color:var(--white);
+  cursor:pointer;
+  padding:0;
+  min-height:96px;
+  transition:transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.ward-map__zone:hover{ transform:translateY(-2px); box-shadow:0 10px 20px rgba(11,37,69,0.22); }
+.ward-map__zone::before{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(11,37,69,0.05) 0%, rgba(11,37,69,0.55) 100%);
+}
+.ward-map__zone-bg{
+  position:absolute; inset:0; width:100%; height:100%;
+  color:rgba(255,255,255,0.4);
+}
+.ward-map__zone--victoria{ grid-area:victoria; background:linear-gradient(135deg, #B98A2E, #8C6420); }
+.ward-map__zone--springwater{ grid-area:springwater; background:linear-gradient(135deg, #2E8C6B, #1F6349); }
+.ward-map__zone--buttonville{ grid-area:buttonville; background:linear-gradient(135deg, #4A2C82, #2E1B57); }
+.ward-map__zone--cachet{ grid-area:cachet; background:linear-gradient(135deg, #3E7A3B, #295428); }
+.ward-map__zone--cathedraltown{ grid-area:cathedraltown; background:linear-gradient(135deg, #A03A46, #742430); }
+.ward-map__zone.is-active{
+  border-color:var(--gold);
+  box-shadow:0 12px 26px rgba(244,185,66,0.4);
+}
+.ward-map__zone.is-active::before{ background:linear-gradient(180deg, rgba(11,37,69,0.02) 0%, rgba(11,37,69,0.72) 100%); }
+.ward-map__zone.is-active .ward-map__zone-name::after{ opacity:1; transform:translateX(-50%) scaleX(1); }
+.ward-map__zone-name{
+  position:relative; z-index:1;
+  font-weight:700; font-size:0.92rem; text-align:center; color:var(--white);
+  padding:10px 8px 12px;
+  text-shadow:0 1px 4px rgba(0,0,0,0.4);
+}
+.ward-map__zone-name::after{
+  content:""; position:absolute; left:50%; bottom:4px; width:28px; height:3px;
+  background:var(--gold); border-radius:2px;
+  transform:translateX(-50%) scaleX(0); opacity:0;
+  transition:transform 0.18s ease, opacity 0.18s ease;
+}
+body[data-lang="zh"] .ward-map__zone-name{ font-family:var(--font-zh); }
+
+.ward-map__zone--victoria{ grid-area:victoria; }
+.ward-map__zone--springwater{ grid-area:springwater; }
+.ward-map__zone--buttonville{ grid-area:buttonville; }
+.ward-map__zone--cachet{ grid-area:cachet; }
+.ward-map__zone--cathedraltown{ grid-area:cathedraltown; }
+
+.ward-map__compass{
+  position:absolute; top:10px; right:14px;
+  font-family:var(--font-mono); font-size:0.72rem; font-weight:700;
+  color:var(--navy); opacity:0.6;
+}
+
+.ward-map__panel{
+  border:2px solid var(--line);
+  border-radius:var(--radius);
+  background:var(--white);
+  padding:24px;
+  display:flex; flex-direction:column;
+}
+.ward-map__panel-name{
+  font-family:var(--font-display); font-weight:700; font-size:1.5rem; text-transform:uppercase;
+  color:var(--navy); margin:0 0 6px;
+}
+body[data-lang="zh"] .ward-map__panel-name{ font-family:var(--font-zh); text-transform:none; font-weight:800; }
+.ward-map__panel-body p{ color:var(--ink-soft); margin:6px 0 14px; }
+.ward-map__panel-body ul{ margin:0; padding-left:20px; color:var(--ink-soft); }
+.ward-map__panel-body li{ margin-bottom:6px; }
+.ward-map__panel-body .hood-card__label{ margin:14px 0 6px; }
+.ward-map__panel-body > p:first-of-type{ margin-top:0; }
+
+@media (max-width:760px){
+  .ward-map-wrap{ grid-template-columns:1fr; }
+  .ward-map{ min-height:260px; }
+}
+
 /* Ward 2 Neighbourhoods accordion */
 .hood-grid{ display:flex; flex-direction:column; gap:14px; }
 .hood-card{
@@ -427,7 +551,7 @@ body[data-lang="zh"] .hz-panel__text h3{ font-family:var(--font-zh); }
   text-align:left;
 }
 .hood-card__name{
-  font-family:var(--font-display); font-size:1.3rem; text-transform:uppercase;
+  font-family:var(--font-display); font-weight:700; font-size:1.3rem; text-transform:uppercase;
   color:var(--navy); letter-spacing:0.01em;
 }
 body[data-lang="zh"] .hood-card__name{ font-family:var(--font-zh); text-transform:none; font-weight:800; }
@@ -459,7 +583,7 @@ body[data-lang="zh"] .hood-card__name{ font-family:var(--font-zh); text-transfor
   align-items:start;
 }
 .vote-step:last-child{ border-bottom:1px solid var(--line); }
-.vote-step__num{ font-family:var(--font-display); font-size:2.4rem; color:var(--red); line-height:1; }
+.vote-step__num{ font-family:var(--font-display); font-weight:700; font-size:2.4rem; color:var(--red); line-height:1; }
 .vote-step h3{ font-family:var(--font-body); font-weight:800; font-size:1.2rem; text-transform:none; letter-spacing:0; margin:0 0 4px; }
 .vote-step__dates{ font-family:var(--font-mono); font-size:0.82rem; color:var(--navy); font-weight:600; margin:0 0 6px; }
 .vote-step p:last-child{ color:var(--ink-soft); margin:0; }
@@ -504,7 +628,7 @@ body[data-lang="zh"] .hood-card__name{ font-family:var(--font-zh); text-transfor
   background:var(--paper); border:2px solid var(--navy); border-radius:var(--radius);
   padding:22px; text-align:center;
 }
-.fact-card__num{ font-family:var(--font-display); font-size:2.2rem; color:var(--red); margin:0 0 6px; }
+.fact-card__num{ font-family:var(--font-display); font-weight:700; font-size:2.2rem; color:var(--red); margin:0 0 6px; }
 .fact-card__label{ font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.06em; color:var(--ink-soft); margin:0; text-transform:uppercase; }
 body[data-lang="zh"] .fact-card__label{ font-family:var(--font-zh); text-transform:none; letter-spacing:0.02em; }
 
