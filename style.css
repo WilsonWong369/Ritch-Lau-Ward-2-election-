@@ -416,12 +416,8 @@ body[data-lang="zh"] .hz-node__label{ font-family:var(--font-zh); }
   color:var(--navy); background:rgba(74,44,130,0.06);
 }
 
-.hz-panel--wide{ grid-template-columns:1fr; }
-.hz-panel--wide .hz-panel__media--landscape{
-  width:100%; aspect-ratio:16/9; max-width:none;
-}
-.hz-panel--wide .hz-panel__media--landscape img{ object-fit:cover; object-position:center 25%; }
-.hz-panel--wide .hz-panel__text{ margin-top:8px; }
+.hz-panel__media--landscape{ aspect-ratio:4/3; }
+.hz-panel__media--landscape img{ object-fit:cover; object-position:center 30%; }
 .hz-panel__eyebrow{
   font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.1em;
   text-transform:uppercase; color:var(--red); margin:0 0 8px; font-weight:700;

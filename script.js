@@ -41,6 +41,40 @@ hzNodes.forEach(node => {
   });
 });
 
+// Ward 2 interactive neighbourhood map
+const mapZones = document.querySelectorAll('.ward-map__zone');
+const mapPanel = document.getElementById('mapPanel');
+const mapPanelName = document.getElementById('mapPanelName');
+const mapPanelBody = document.getElementById('mapPanelBody');
+
+function selectHood(hood) {
+  const card = document.querySelector(`.hood-card[data-hood="${hood}"]`);
+  if (!card) return;
+
+  mapZones.forEach(z => {
+    const active = z.dataset.hood === hood;
+    z.classList.toggle('is-active', active);
+    z.setAttribute('aria-pressed', String(active));
+  });
+
+  mapPanelName.innerHTML = card.querySelector('.hood-card__name').innerHTML;
+  mapPanelBody.innerHTML = card.querySelector('.hood-card__body').innerHTML;
+
+  document.querySelectorAll('.hood-card').forEach(c => {
+    const open = c === card;
+    c.classList.toggle('is-open', open);
+    c.querySelector('.hood-card__head').setAttribute('aria-expanded', String(open));
+  });
+}
+
+mapZones.forEach(zone => {
+  zone.addEventListener('click', () => selectHood(zone.dataset.hood));
+});
+
+if (mapZones.length) {
+  selectHood(mapZones[0].dataset.hood);
+}
+
 // Ward 2 Neighbourhoods accordion
 document.querySelectorAll('.hood-card__head').forEach(btn => {
   btn.addEventListener('click', () => {
