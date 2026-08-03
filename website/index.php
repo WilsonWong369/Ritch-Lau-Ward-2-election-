@@ -1,60 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" id="htmlRoot">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Re-Elect Ritch Lau — Ward 2 Markham 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body data-lang="en">
-
-<div class="ticker" aria-hidden="true">
-  <div class="ticker__track">
-    <span class="lang-en">CAMPAIGN LAUNCH · AUGUST 1</span><span class="lang-zh">競選啟動 · 8月1日</span>
-    <span>★</span>
-    <span class="lang-en">ELECTION DAY · OCTOBER 26</span><span class="lang-zh">選舉日 · 10月26日</span>
-    <span>★</span>
-    <span class="lang-en">WARD 2 · MARKHAM</span><span class="lang-zh">萬錦市 第二選區</span>
-    <span>★</span>
-    <span class="lang-en">CAMPAIGN LAUNCH · AUGUST 1</span><span class="lang-zh">競選啟動 · 8月1日</span>
-    <span>★</span>
-    <span class="lang-en">ELECTION DAY · OCTOBER 26</span><span class="lang-zh">選舉日 · 10月26日</span>
-    <span>★</span>
-    <span class="lang-en">WARD 2 · MARKHAM</span><span class="lang-zh">萬錦市 第二選區</span>
-    <span>★</span>
-  </div>
-</div>
-
-<header class="site-header">
-  <div class="site-header__inner">
-    <a class="brand" href="#top">
-      <span class="brand__mark">RL</span>
-      <span class="brand__text">RITCH LAU
-        <em class="brand__zh-name">劉肇麟</em>
-        <em class="lang-en">Ward 2</em><em class="lang-zh">第二選區</em>
-      </span>
-    </a>
-    <nav class="nav" id="nav">
-      <a href="#meet-ritch"><span class="lang-en">Meet Ritch</span><span class="lang-zh">認識劉肇麟</span></a>
-      <a href="#timeline"><span class="lang-en">Community Engagement</span><span class="lang-zh">社區參與</span></a>
-      <a href="#neighbourhoods"><span class="lang-en">Neighbourhoods</span><span class="lang-zh">社區</span></a>
-      <a href="#launch"><span class="lang-en">Launch Event</span><span class="lang-zh">啟動活動</span></a>
-      <a href="#involved"><span class="lang-en">Get Involved</span><span class="lang-zh">參與方式</span></a>
-      <a href="#services"><span class="lang-en">City Services</span><span class="lang-zh">市府服務</span></a>
-      <a href="#vote"><span class="lang-en">How to Vote</span><span class="lang-zh">投票方式</span></a>
-      <a href="#contact" class="nav__cta"><span class="lang-en">Join Team Ritch</span><span class="lang-zh">加入義工團隊</span></a>
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
-        <span class="lang-toggle__opt lang-toggle__opt--active" data-val="en">EN</span>
-        <span class="lang-toggle__opt" data-val="zh">中文</span>
-      </button>
-    </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+<?php
+// Use header/footer split files
+include __DIR__ . '/header.php';
+?>
 
 <main id="top">
 
@@ -517,22 +464,7 @@
 
 </main>
 
-<footer class="site-footer">
-  <div class="footer__social">
-    <a href="https://www.facebook.com/ritchlau/" target="_blank" rel="noopener" aria-label="Facebook">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
-    </a>
-    <a href="https://www.instagram.com/ritchlau/" target="_blank" rel="noopener" aria-label="Instagram">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.59 1.8c.46-.16 1.26-.35 2.43-.4C9.29 1.34 9.67 1.33 12 1.33Zm0 1.8c-3.15 0-3.5.01-4.73.07-1.03.05-1.6.22-1.97.36-.5.19-.85.42-1.22.79-.37.37-.6.72-.79 1.22-.14.37-.31.94-.36 1.97-.06 1.23-.07 1.58-.07 4.73s.01 3.5.07 4.73c.05 1.03.22 1.6.36 1.97.19.5.42.85.79 1.22.37.37.72.6 1.22.79.37.14.94.31 1.97.36 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c1.03-.05 1.6-.22 1.97-.36.5-.19.85-.42 1.22-.79.37-.37.6-.72.79-1.22.14-.37.31-.94.36-1.97.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.05-1.03-.22-1.6-.36-1.97a3.1 3.1 0 0 0-.79-1.22 3.1 3.1 0 0 0-1.22-.79c-.37-.14-.94-.31-1.97-.36-1.23-.06-1.58-.07-4.73-.07Zm0 3.32a5.68 5.68 0 1 1 0 11.36 5.68 5.68 0 0 1 0-11.36Zm0 1.8a3.88 3.88 0 1 0 0 7.76 3.88 3.88 0 0 0 0-7.76Zm5.9-1.98a1.33 1.33 0 1 1-2.66 0 1.33 1.33 0 0 1 2.66 0Z"/></svg>
-    </a>
-    <a href="https://ca.linkedin.com/in/ritchlau" target="_blank" rel="noopener" aria-label="LinkedIn">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.37 4.25 5.44v6.3ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
-    </a>
-  </div>
-  <p><span class="lang-en">Authorized by the Official Agent of Ritch Lau Campaign</span><span class="lang-zh">由劉肇麟競選活動法定代理人授權發布</span></p>
-  <p>All Rights Reserved © 2026</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+<?php
+// include shared footer
+include __DIR__ . '/footer.php';
+?>
