@@ -18,6 +18,6 @@
   <p>All Rights Reserved © 2026</p>
 </footer>
 
-<script src="script.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>

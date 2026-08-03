@@ -1,3 +1,15 @@
+/*
+Theme Name: Re-Elect Ritch Lau — Ward 2 2026
+Theme URI: https://ritchlau.ca
+Author: Team Ritch Lau
+Author URI: https://ritchlau.ca
+Description: Custom single-page campaign theme for Ritch Lau's Ward 2 Markham re-election campaign.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ritchlau
+*/
+
 /* ============ TOKENS ============ */
 :root{
   --navy: #4A2C82;

@@ -2,16 +2,15 @@
 // header.php - site header and head section
 ?>
 <!DOCTYPE html>
-<html lang="en" id="htmlRoot">
+<html id="htmlRoot" <?php language_attributes(); ?>>
 <head>
-<meta charset="UTF-8">
+<meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Re-Elect Ritch Lau — Ward 2 Markham 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<?php wp_head(); ?>
 </head>
-<body data-lang="en">
+<body <?php body_class(); ?> data-lang="en">
+<?php wp_body_open(); ?>
 
 <div class="ticker" aria-hidden="true">
   <div class="ticker__track">
