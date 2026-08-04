@@ -46,8 +46,9 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
     body: '<span class="lang-en">Wins the 2022 Municipal Election with 3,012 votes, becoming Councillor for Ward 2 and beginning direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2026/05/HZ8_0651_edited-768x1152.webp',
-    alt: 'Ritch Lau portrait'
+    img: 'pictuers/HZ8_0651_edited-768x1152.webp',
+    alt: 'Ritch Lau portrait',
+    fit: 'contain'
   },
   {
     era: 'campaign',
@@ -185,7 +186,7 @@ function ceRenderDetail() {
   if (!media || !date || !title || !body) return;
 
   media.innerHTML = e.img
-    ? `<img src="${e.img}" alt="${e.alt || ''}" loading="lazy">`
+    ? `<img src="${e.img}" alt="${e.alt || ''}" loading="lazy" style="object-fit:${e.fit || 'cover'};">`
     : `<div class="ce-detail__placeholder">${e.placeholder || ''}</div>`;
   date.innerHTML = e.date;
   title.innerHTML = e.title;
