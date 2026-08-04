@@ -28,7 +28,8 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span>',
     title: '<span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span>',
     body: '<span class="lang-en">Ritch is the first to register as a candidate for Ward 2, launching his campaign with a focus on traffic safety, budget management, and more recreational and green space for the community.</span><span class="lang-zh">劉肇麟成為第二選區首位登記參選人，競選重點包括交通安全、財政管理，以及增加社區康樂及綠化空間。</span>',
-    placeholder: '<span class="lang-en">Candidacy launch photo</span><span class="lang-zh">宣布參選活動照片</span>'
+    img: 'images/candidacy-may2022.jpg',
+    alt: 'Ritch Lau with supporters holding Ward 2 campaign signs'
   },
   {
     era: 'campaign',
@@ -98,7 +99,8 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Resident casework</span><span class="lang-zh">為居民跟進個案</span>',
     title: '<span class="lang-en">Direct resident casework</span><span class="lang-zh">直接為居民跟進個案</span>',
     body: '<span class="lang-en">Ritch personally responds to residents through emails, phone calls, WhatsApp, and neighbourhood group chats — helping with traffic safety, tree maintenance, parks, roads, by-law concerns, and construction impacts, and connecting cases with the right City staff.</span><span class="lang-zh">劉肇麟親自透過電郵、電話、WhatsApp及社區群組回應居民，協助處理交通安全、樹木維護、公園、道路、法規事宜及工程影響等問題，並將個案轉介予相關市府部門跟進。</span>',
-    placeholder: '<span class="lang-en">Door-knocking / resident visit photo</span><span class="lang-zh">探訪居民照片</span>'
+    img: 'images/resident-casework.jpg',
+    alt: 'Ritch Lau door-knocking, speaking with a resident at their front door'
   },
   {
     era: 'next',
@@ -115,7 +117,8 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span>',
     title: '<span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span>',
     body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span>',
-    placeholder: '<span class="lang-en">Media interview photo</span><span class="lang-zh">媒體採訪照片</span>'
+    img: 'images/media-interview-lake.jpg',
+    alt: 'Ritch Lau speaking with media by a Ward 2 pond'
   }
 ];
 
