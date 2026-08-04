@@ -2,9 +2,9 @@
 :root{
   --navy: #4A2C82;
   --navy-deep: #2E1B57;
-  --red: #E8452C;
-  --red-deep: #C4331C;
-  --gold: #F4B942;
+  --red: #17A398;
+  --red-deep: #0F7A72;
+  --gold: #5FD6C7;
   --paper: #FAF7F2;
   --ink: #17181A;
   --ink-soft: #4A4E57;
@@ -258,6 +258,17 @@ body[data-lang="zh"] .hero__title .lang-zh{
 .hero__meta-label{ font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.08em; color:rgba(255,255,255,0.68); text-transform:uppercase; }
 
 .hero__poster{ display:flex; justify-content:center; }
+.poster-frame{
+  max-width:340px;
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow-lift);
+  border:3px solid rgba(255,255,255,0.25);
+  transform:rotate(1deg);
+  transition:transform 0.25s ease;
+}
+.poster-frame:hover{ transform:rotate(0deg); }
+.poster-frame img{ width:100%; display:block; }
 .sign-card{
   background:var(--white);
   border-radius:var(--radius);
@@ -275,24 +286,6 @@ body[data-lang="zh"] .hero__title .lang-zh{
 .sign-card__sub{ font-size:0.88rem; color:var(--ink-soft); margin:0 0 14px; }
 .sign-card img{ border-radius:8px; }
 
-.sign-card--priorities{
-  background:linear-gradient(165deg, rgba(255,255,255,0.14), rgba(255,255,255,0.05));
-  border:1.5px solid rgba(255,255,255,0.28);
-  backdrop-filter:blur(14px) saturate(140%);
-  -webkit-backdrop-filter:blur(14px) saturate(140%);
-  box-shadow:0 24px 48px rgba(11,7,26,0.35);
-  transform:rotate(0deg); max-width:340px;
-}
-.sign-card--priorities:hover{ transform:rotate(0deg); }
-.sign-card--priorities .sign-card__eyebrow{ color:var(--gold); }
-.sign-card--priorities .sign-card__title{ font-size:1.15rem; margin-bottom:16px; color:var(--white); }
-.priority-list{ list-style:none; margin:0 0 18px; padding:0; display:flex; flex-direction:column; gap:14px; }
-.priority-list li{ display:flex; align-items:center; gap:14px; }
-.priority-list svg{ flex-shrink:0; color:var(--gold); }
-.priority-list span{ font-weight:600; color:var(--white); font-size:0.96rem; }
-body[data-lang="zh"] .priority-list span{ font-family:var(--font-zh); }
-.sign-card--priorities .text-link{ color:var(--gold); }
-.sign-card--priorities .text-link:hover{ color:var(--white); }
 
 /* ============ SECTIONS ============ */
 .section{ padding:88px 24px; }
@@ -409,7 +402,7 @@ body[data-lang="zh"] .ce-era{ font-family:var(--font-zh); letter-spacing:0.02em;
 .ce-node:hover .ce-node__dot{ transform:scale(1.12); }
 .ce-node.is-active .ce-node__dot{
   background:var(--red); border-color:var(--red);
-  box-shadow:0 0 0 6px rgba(232,69,44,0.18);
+  box-shadow:0 0 0 6px rgba(23,163,152,0.18);
 }
 .ce-node__date{
   font-family:var(--font-mono); font-weight:700; font-size:0.74rem;
@@ -482,10 +475,7 @@ body[data-lang="zh"] .ce-detail__text h3{ font-family:var(--font-zh); }
   padding:18px;
   border:2px solid var(--navy);
   border-radius:var(--radius);
-  background:
-    repeating-linear-gradient(0deg, rgba(74,44,130,0.05) 0px, rgba(74,44,130,0.05) 1px, transparent 1px, transparent 34px),
-    repeating-linear-gradient(90deg, rgba(74,44,130,0.05) 0px, rgba(74,44,130,0.05) 1px, transparent 1px, transparent 34px),
-    var(--paper);
+  background:var(--paper);
 }
 .ward-map__zone{
   position:relative;
@@ -508,14 +498,14 @@ body[data-lang="zh"] .ce-detail__text h3{ font-family:var(--font-zh); }
   position:absolute; inset:0; width:100%; height:100%;
   color:rgba(255,255,255,0.4);
 }
-.ward-map__zone--victoria{ grid-area:victoria; background:linear-gradient(135deg, #B98A2E, #8C6420); }
-.ward-map__zone--springwater{ grid-area:springwater; background:linear-gradient(135deg, #2E8C6B, #1F6349); }
+.ward-map__zone--victoria{ grid-area:victoria; background:linear-gradient(135deg, #6B3FA0, #4A2C82); }
+.ward-map__zone--springwater{ grid-area:springwater; background:linear-gradient(135deg, #1CA9A0, #0F7A72); }
 .ward-map__zone--buttonville{ grid-area:buttonville; background:linear-gradient(135deg, #4A2C82, #2E1B57); }
-.ward-map__zone--cachet{ grid-area:cachet; background:linear-gradient(135deg, #3E7A3B, #295428); }
-.ward-map__zone--cathedraltown{ grid-area:cathedraltown; background:linear-gradient(135deg, #A03A46, #742430); }
+.ward-map__zone--cachet{ grid-area:cachet; background:linear-gradient(135deg, #0E6E68, #0A4F4B); }
+.ward-map__zone--cathedraltown{ grid-area:cathedraltown; background:linear-gradient(135deg, #3FC8BD, #1F9E93); }
 .ward-map__zone.is-active{
   border-color:var(--gold);
-  box-shadow:0 12px 26px rgba(244,185,66,0.4);
+  box-shadow:0 12px 26px rgba(95,214,199,0.4);
 }
 .ward-map__zone.is-active::before{ background:linear-gradient(180deg, rgba(11,37,69,0.02) 0%, rgba(11,37,69,0.72) 100%); }
 .ward-map__zone.is-active .ward-map__zone-name::after{ opacity:1; transform:translateX(-50%) scaleX(1); }
@@ -539,11 +529,6 @@ body[data-lang="zh"] .ward-map__zone-name{ font-family:var(--font-zh); }
 .ward-map__zone--cachet{ grid-area:cachet; }
 .ward-map__zone--cathedraltown{ grid-area:cathedraltown; }
 
-.ward-map__compass{
-  position:absolute; top:10px; right:14px;
-  font-family:var(--font-mono); font-size:0.72rem; font-weight:700;
-  color:var(--navy); opacity:0.6;
-}
 
 .ward-map__panel{
   border:2px solid var(--line);
