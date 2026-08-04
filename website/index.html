@@ -163,35 +163,46 @@
   </section>
 
   <!-- TIMELINE -->
-  <section class="section section--flip" id="timeline">
+  <section class="section" id="timeline">
     <div class="section__inner">
-      <p class="eyebrow"><span class="lang-en">His journey</span><span class="lang-zh">他的歷程</span></p>
-      <h2 class="section__title"><span class="lang-en">Community Engagement</span><span class="lang-zh">社區參與</span></h2>
-      <p class="body-lg" style="margin-bottom:8px;">
-        <span class="lang-en">Four years of showing up — campaign, council, and the community work in between. Filter by era or scrub the line to see what happened.</span>
-        <span class="lang-zh">四年來的親身參與 — 由競選、議會工作，到期間的社區服務。可按階段篩選，或拖動時間線查看詳情。</span>
-      </p>
 
-      <div class="ce-eras" id="ceEras"></div>
-
-      <div class="ce-track-wrap">
-        <div class="ce-track" id="ceTrack">
-          <div class="ce-track__line"></div>
-          <div class="ce-track__progress" id="ceProgress"></div>
-          <div class="ce-nodes" id="ceNodes"></div>
+      <div class="ce-card">
+        <div class="ce-card__head">
+          <div class="ce-card__intro">
+            <p class="eyebrow"><span class="lang-en">His journey</span><span class="lang-zh">他的歷程</span></p>
+            <h2 class="section__title" style="margin-bottom:0;"><span class="lang-en">Community Engagement</span><span class="lang-zh">社區參與</span></h2>
+            <p class="body-lg" style="margin:6px 0 0;">
+              <span class="lang-en">Four years of showing up — campaign, council, and the community work in between. Filter by era or scrub the line to see what happened.</span>
+              <span class="lang-zh">四年來的親身參與 — 由競選、議會工作，到期間的社區服務。可按階段篩選，或拖動時間線查看詳情。</span>
+            </p>
+          </div>
+          <button class="ce-lang-toggle" id="ceLangToggle" type="button" aria-label="Switch language">
+            <span class="ce-lang-toggle__opt" data-val="en">EN</span>
+            <span class="ce-lang-toggle__opt" data-val="zh">中文</span>
+          </button>
         </div>
-      </div>
 
-      <div class="ce-detail" id="ceDetail">
-        <div class="ce-detail__media" id="ceDetailMedia"></div>
-        <div class="ce-detail__text">
-          <p class="ce-detail__date" id="ceDetailDate"></p>
-          <h3 id="ceDetailTitle"></h3>
-          <p class="ce-detail__body" id="ceDetailBody"></p>
-          <div class="ce-detail__nav">
-            <button type="button" class="ce-nav-btn" id="cePrev" aria-label="Previous">←</button>
-            <button type="button" class="ce-nav-btn" id="ceNext" aria-label="Next">→</button>
-            <span class="ce-counter" id="ceCounter"></span>
+        <div class="ce-eras" id="ceEras"></div>
+
+        <div class="ce-track-wrap">
+          <div class="ce-track" id="ceTrack">
+            <div class="ce-track__line"></div>
+            <div class="ce-track__progress" id="ceProgress"></div>
+            <div class="ce-nodes" id="ceNodes"></div>
+          </div>
+        </div>
+
+        <div class="ce-detail" id="ceDetail">
+          <div class="ce-detail__media" id="ceDetailMedia"></div>
+          <div class="ce-detail__text">
+            <p class="ce-detail__date" id="ceDetailDate"></p>
+            <h3 id="ceDetailTitle"></h3>
+            <p class="ce-detail__body" id="ceDetailBody"></p>
+            <div class="ce-detail__nav">
+              <button type="button" class="ce-nav-btn" id="cePrev" aria-label="Previous">←</button>
+              <button type="button" class="ce-nav-btn" id="ceNext" aria-label="Next">→</button>
+              <span class="ce-counter" id="ceCounter"></span>
+            </div>
           </div>
         </div>
       </div>

@@ -20,6 +20,15 @@ langToggle.addEventListener('click', () => {
 const savedLang = localStorage.getItem('ritchlau-lang');
 if (savedLang) setLang(savedLang);
 
+// Timeline card's own EN/中文 toggle (mirrors the header toggle)
+const ceLangToggle = document.getElementById('ceLangToggle');
+if (ceLangToggle) {
+  ceLangToggle.addEventListener('click', () => {
+    const current = document.body.getAttribute('data-lang');
+    setLang(current === 'en' ? 'zh' : 'en');
+  });
+}
+
 // Community Engagement timeline (era filters + scrollable track + detail panel)
 const CE_ENTRIES = [
   {
