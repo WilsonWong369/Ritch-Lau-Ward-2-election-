@@ -37,7 +37,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span>',
     title: '<span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span>',
     body: '<span class="lang-en">Ritch is the first to register as a candidate for Ward 2, launching his campaign with a focus on traffic safety, budget management, and more recreational and green space for the community.</span><span class="lang-zh">劉肇麟成為第二選區首位登記參選人，競選重點包括交通安全、財政管理，以及增加社區康樂及綠化空間。</span>',
-    img: 'Pictures/Candidacy%20may2022.jpg',
+    img: 'pictuers/candidacy-may2022.jpg',
     alt: 'Ritch Lau with supporters holding Ward 2 campaign signs'
   },
   {
@@ -46,7 +46,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
     body: '<span class="lang-en">Wins the 2022 Municipal Election with 3,012 votes, becoming Councillor for Ward 2 and beginning direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2026/05/HZ8_0651_edited-768x1152.webp',
+    img: 'pictuers/HZ8_0651_edited-768x1152.webp',
     alt: 'Ritch Lau portrait',
     fit: 'contain'
   },
@@ -109,7 +109,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Resident casework</span><span class="lang-zh">為居民跟進個案</span>',
     title: '<span class="lang-en">Direct resident casework</span><span class="lang-zh">直接為居民跟進個案</span>',
     body: '<span class="lang-en">Ritch personally responds to residents through emails, phone calls, WhatsApp, and neighbourhood group chats — helping with traffic safety, tree maintenance, parks, roads, by-law concerns, and construction impacts, and connecting cases with the right City staff.</span><span class="lang-zh">劉肇麟親自透過電郵、電話、WhatsApp及社區群組回應居民，協助處理交通安全、樹木維護、公園、道路、法規事宜及工程影響等問題，並將個案轉介予相關市府部門跟進。</span>',
-    img: 'Pictures/Resident%20casework.jpg',
+    img: 'pictuers/resident-casework.jpg',
     alt: 'Ritch Lau door-knocking, speaking with a resident at their front door'
   },
   {
@@ -118,7 +118,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
     title: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
     body: '<span class="lang-en">Officially launches his re-election campaign, sharing his vision for Ward 2 and unveiling the 2026 Campaign Platform.</span><span class="lang-zh">正式啟動連任競選活動，分享他對第二選區的願景，並公布2026年競選政綱。</span>',
-    img: 'Pictures/campaign-launch-aug2026.jpg',
+    img: 'pictuers/campaign-launch-aug2026.jpg',
     alt: 'Ritch Lau with volunteers and supporters at the 2026 campaign launch'
   },
   {
@@ -127,7 +127,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span>',
     title: '<span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span>',
     body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span>',
-    img: 'Pictures/Media%20interview%20lake.jpg',
+    img: 'pictuers/media-interview-lake.jpg',
     alt: 'Ritch Lau speaking with media by a Ward 2 pond'
   }
 ];
@@ -211,14 +211,61 @@ if (document.getElementById('ceNodes')) {
 }
 
 // Ward 2 interactive neighbourhood map
+const HOOD_DATA = {
+  buttonville: {
+    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">畢頓維爾</span>',
+    about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major mixed-use redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前畢頓維爾機場用地為中心的住宅區，現正轉型為大型綜合發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
+    concerns: [
+      '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">畢頓維爾重建項目的速度與規模</span>',
+      '<span class="lang-en">Traffic flow along Hwy 404 corridor</span><span class="lang-zh">404號公路沿線的交通流量</span>',
+      '<span class="lang-en">Ensuring new parks and schools keep pace with growth</span><span class="lang-zh">新公園及學校設施能否跟上發展步伐</span>'
+    ]
+  },
+  cachet: {
+    name: '<span class="lang-en">Cachet</span><span class="lang-zh">卡切特</span>',
+    about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校。</span>',
+    concerns: [
+      '<span class="lang-en">Protecting mature trees during construction nearby</span><span class="lang-zh">附近工程期間保護成熟樹木</span>',
+      '<span class="lang-en">School capacity and safe walking routes</span><span class="lang-zh">學校學額及安全步行路線</span>',
+      '<span class="lang-en">Speeding and traffic calming on residential streets</span><span class="lang-zh">住宅街道超速問題及減速措施</span>'
+    ]
+  },
+  cathedraltown: {
+    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">天主教堂鎮</span>',
+    about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道。</span>',
+    concerns: [
+      '<span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span>',
+      '<span class="lang-en">Stormwater and drainage management</span><span class="lang-zh">雨水及排水系統管理</span>',
+      '<span class="lang-en">Transit access for a newer community</span><span class="lang-zh">新社區的公共交通接駁</span>'
+    ]
+  },
+  'victoria-square': {
+    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">維多利亞廣場</span>',
+    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色。</span>',
+    concerns: [
+      '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
+      '<span class="lang-en">Road capacity as surrounding areas intensify</span><span class="lang-zh">周邊地區發展加密下的道路承載力</span>',
+      '<span class="lang-en">Sidewalk and cycling connections to newer subdivisions</span><span class="lang-zh">連接新社區的行人道及單車徑</span>'
+    ]
+  },
+  springwater: {
+    name: '<span class="lang-en">Springwater</span><span class="lang-zh">泉水社區</span>',
+    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and 19th Ave, bordering Ward 2\'s northern edge, valued for its parks and lower-density streets.</span><span class="lang-zh">位於Warden Ave及19 Ave附近的寧靜住宅區，緊鄰第二選區北面邊界，以公園及低密度街道見稱。</span>',
+    concerns: [
+      '<span class="lang-en">Maintenance of local parks and green space</span><span class="lang-zh">社區公園及綠化空間的維護</span>',
+      '<span class="lang-en">Cut-through traffic from neighbouring wards</span><span class="lang-zh">鄰近選區車輛穿梭造成的交通問題</span>',
+      '<span class="lang-en">Street lighting and winter road maintenance</span><span class="lang-zh">路燈及冬季道路維修</span>'
+    ]
+  }
+};
+
 const mapZones = document.querySelectorAll('.ward-map__zone');
-const mapPanel = document.getElementById('mapPanel');
 const mapPanelName = document.getElementById('mapPanelName');
 const mapPanelBody = document.getElementById('mapPanelBody');
 
 function selectHood(hood) {
-  const card = document.querySelector(`.hood-card[data-hood="${hood}"]`);
-  if (!card) return;
+  const data = HOOD_DATA[hood];
+  if (!data || !mapPanelName || !mapPanelBody) return;
 
   mapZones.forEach(z => {
     const active = z.dataset.hood === hood;
@@ -226,14 +273,13 @@ function selectHood(hood) {
     z.setAttribute('aria-pressed', String(active));
   });
 
-  mapPanelName.innerHTML = card.querySelector('.hood-card__name').innerHTML;
-  mapPanelBody.innerHTML = card.querySelector('.hood-card__body').innerHTML;
-
-  document.querySelectorAll('.hood-card').forEach(c => {
-    const open = c === card;
-    c.classList.toggle('is-open', open);
-    c.querySelector('.hood-card__head').setAttribute('aria-expanded', String(open));
-  });
+  mapPanelName.innerHTML = data.name;
+  mapPanelBody.innerHTML = `
+    <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+    <p>${data.about}</p>
+    <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+    <ul>${data.concerns.map(c => `<li>${c}</li>`).join('')}</ul>
+  `;
 }
 
 mapZones.forEach(zone => {
@@ -243,16 +289,6 @@ mapZones.forEach(zone => {
 if (mapZones.length) {
   selectHood(mapZones[0].dataset.hood);
 }
-
-// Ward 2 Neighbourhoods accordion
-document.querySelectorAll('.hood-card__head').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const card = btn.closest('.hood-card');
-    const isOpen = card.classList.contains('is-open');
-    card.classList.toggle('is-open', !isOpen);
-    btn.setAttribute('aria-expanded', String(!isOpen));
-  });
-});
 
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
