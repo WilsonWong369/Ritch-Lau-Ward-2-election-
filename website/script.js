@@ -37,7 +37,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span>',
     title: '<span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span>',
     body: '<span class="lang-en">Ritch was the first to register as a candidate for Ward 2, launching his campaign with a focus on community & traffic safety, budget management, and more recreational and green space for the community.</span><span class="lang-zh">劉肇麟成為第二選區首位登記參選人，競選重點包括社區及交通安全、財政管理，以及增加社區康樂及綠化空間。</span>',
-    img: 'images/candidacy-may2022-sm.jpg',
+    img: 'images/candidacy-may2022.jpg',
     alt: 'Ritch Lau with supporters holding Ward 2 campaign signs'
   },
   {
@@ -46,7 +46,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
     body: '<span class="lang-en">Won the 2022 Municipal Election with 3,012 votes, became Councillor for Ward 2 and began direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為萬錦市第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2026/05/HZ8_0651_edited-768x1152.webp',
+    img: 'images/elected-ward2-councillor.jpg',
     alt: 'Ritch Lau portrait',
     fit: 'contain'
   },
@@ -109,7 +109,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Resident casework</span><span class="lang-zh">為居民跟進個案</span>',
     title: '<span class="lang-en">Direct resident casework</span><span class="lang-zh">直接為居民跟進個案</span>',
     body: '<span class="lang-en">Ritch personally responds to residents through emails, phone calls, WhatsApp, and neighbourhood group chats — helping with traffic safety, tree maintenance, parks, roads, by-law concerns, and construction impacts, and connecting cases with the right City staff.</span><span class="lang-zh">劉肇麟親自透過電郵、電話、WhatsApp及社區群組回應居民，協助處理交通安全、樹木維護、公園、道路、法規事宜及工程影響等問題，並將個案轉介予相關市府部門跟進。</span>',
-    img: 'images/resident-casework-sm.jpg',
+    img: 'images/resident-casework.jpg',
     alt: 'Ritch Lau door-knocking, speaking with a resident at their front door'
   },
   {
@@ -118,7 +118,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
     title: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
     body: '<span class="lang-en">Officially launches his re-election campaign, sharing his vision for Ward 2 and unveiling the 2026 Campaign Platform.</span><span class="lang-zh">正式啟動連任競選活動，分享他對第二選區的願景，並公布2026年競選政綱。</span>',
-    img: 'images/campaign-launch-aug2026-sm.jpg',
+    img: 'images/campaign-launch-aug2026.jpg',
     alt: 'Ritch Lau with volunteers and supporters at the 2026 campaign launch'
   },
   {
@@ -127,7 +127,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span>',
     title: '<span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span>',
     body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span>',
-    img: 'images/media-interview-lake-sm.jpg',
+    img: 'images/media-interview-lake.jpg',
     alt: 'Ritch Lau speaking with media by a Ward 2 pond'
   }
 ];

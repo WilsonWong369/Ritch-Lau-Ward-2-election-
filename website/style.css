@@ -499,12 +499,12 @@ body[data-lang="zh"] .ce-detail__text h3{ font-family:var(--font-zh); }
 .ward-map__zone-bg{
   display:none;
 }
-.ward-map__zone--victoria{ grid-area:victoria; background:linear-gradient(135deg, #6B3FA0, #4A2C82); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(46,27,87,0.35)), url('images/victoria-square-sm.jpg'); background-size:cover; background-position:center; }
-.ward-map__zone--springwater{ grid-area:springwater; background:linear-gradient(135deg, #1CA9A0, #0F7A72); background-image:linear-gradient(135deg, rgba(28,169,160,0.35), rgba(15,122,114,0.35)), url('images/springwater-sm.jpg'); background-size:cover; background-position:center; }
-.ward-map__zone--buttonville{ grid-area:buttonville; background:linear-gradient(135deg, #4A2C82, #2E1B57); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(46,27,87,0.35)), url('images/buttonville-sm.jpg'); background-size:cover; background-position:center; }
-.ward-map__zone--cachet{ grid-area:cachet; background:linear-gradient(135deg, #0E6E68, #0A4F4B); background-image:linear-gradient(135deg, rgba(14,110,104,0.35), rgba(10,79,75,0.35)), url('images/cachet-sm.jpg'); background-size:cover; background-position:center; }
-.ward-map__zone--cathedraltown{ grid-area:cathedraltown; background:linear-gradient(135deg, #3FC8BD, #1F9E93); background-image:linear-gradient(135deg, rgba(63,200,189,0.35), rgba(31,158,147,0.35)), url('images/cathedraltown-sm.jpg'); background-size:cover; background-position:center; }
-.ward-map__zone--civic{ grid-area:civic; background:linear-gradient(135deg, #4A2C82, #17A398); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(23,163,152,0.35)), url('images/civic-centre-sm.jpg'); background-size:cover; background-position:center; }
+.ward-map__zone--victoria{ grid-area:victoria; background:linear-gradient(135deg, #6B3FA0, #4A2C82); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(46,27,87,0.35)), url('images/victoria-square-sm.png'); background-size:cover; background-position:center; }
+.ward-map__zone--springwater{ grid-area:springwater; background:linear-gradient(135deg, #1CA9A0, #0F7A72); background-image:linear-gradient(135deg, rgba(28,169,160,0.35), rgba(15,122,114,0.35)), url('images/springwater-sm.png'); background-size:cover; background-position:center; }
+.ward-map__zone--buttonville{ grid-area:buttonville; background:linear-gradient(135deg, #4A2C82, #2E1B57); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(46,27,87,0.35)), url('images/buttonville-sm.png'); background-size:cover; background-position:center; }
+.ward-map__zone--cachet{ grid-area:cachet; background:linear-gradient(135deg, #0E6E68, #0A4F4B); background-image:linear-gradient(135deg, rgba(14,110,104,0.35), rgba(10,79,75,0.35)), url('images/cachet-sm.png'); background-size:cover; background-position:center; }
+.ward-map__zone--cathedraltown{ grid-area:cathedraltown; background:linear-gradient(135deg, #3FC8BD, #1F9E93); background-image:linear-gradient(135deg, rgba(63,200,189,0.35), rgba(31,158,147,0.35)), url('images/cathedraltown-sm.png'); background-size:cover; background-position:center; }
+.ward-map__zone--civic{ grid-area:civic; background:linear-gradient(135deg, #4A2C82, #17A398); background-image:linear-gradient(135deg, rgba(74,44,130,0.35), rgba(23,163,152,0.35)), url('images/civic-centre-sm.png'); background-size:cover; background-position:center; }
 .ward-map__zone.is-active{
   border-color:var(--gold);
   box-shadow:0 12px 26px rgba(95,214,199,0.4);
