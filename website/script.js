@@ -214,7 +214,7 @@ if (document.getElementById('ceNodes')) {
 // Ward 2 interactive neighbourhood map
 const HOOD_DATA = {
   buttonville: {
-    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville</span>',
+    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville 前機場區</span>',
     about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major industrial redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前Buttonville機場用地為中心的住宅區，現正轉型為大型倉庫發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
     concerns: [
       '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">機場土地改建項目的速度與規模</span>',
@@ -223,7 +223,7 @@ const HOOD_DATA = {
     ]
   },
   cachet: {
-    name: '<span class="lang-en">Cachet</span><span class="lang-zh">Cachet</span>',
+    name: '<span class="lang-en">Cachet</span><span class="lang-zh">Cachet 凱旋區</span>',
     about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校</span>',
     concerns: [
       '<span class="lang-en">Fighting property crimes, strengthening neighbourhood watch, and building safer communities together.</span><span class="lang-zh">致力打擊入屋盜竊、偷車等社區罪案，推動及加強鄰舍守望，攜手打造更安全的社區</span>',
@@ -232,7 +232,7 @@ const HOOD_DATA = {
     ]
   },
   cathedraltown: {
-    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown</span>',
+    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown 大教堂區</span>',
     about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道</span>',
     concerns: [
       '<span class="lang-en">Successfully secured additional overnight street parking spaces to better serve residents</span><span class="lang-zh">成功爭取增加過夜路邊停車位，回應居民實際需要</span>',
@@ -241,7 +241,7 @@ const HOOD_DATA = {
     ]
   },
   'victoria-square': {
-    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">Victoria Square</span>',
+    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">Victoria Square 維多利亞廣場</span>',
     about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色</span>',
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
@@ -250,7 +250,7 @@ const HOOD_DATA = {
     ]
   },
   springwater: {
-    name: '<span class="lang-en">Springwater</span><span class="lang-zh">Springwater</span>',
+    name: '<span class="lang-en">Springwater</span><span class="lang-zh">Springwater 泉水</span>',
     about: '<span class="lang-en">A quieter residential pocket near Warden Ave and Elgin Mills Rd, valued for its parks and lower-density streets</span><span class="lang-zh">位於Warden Ave及Elgin Mills Rd附近的寧靜住宅區，以公園及低密度街道見稱</span>',
     concerns: [
       '<span class="lang-en">Acted as a key liaison between City staff and developers during the transition of municipal services, helping ensure a smooth process for residents</span><span class="lang-zh">在市政服務過渡期間，擔任市府及發展商之間的重要協調橋樑，確保居民服務順利銜接</span>',
@@ -259,12 +259,12 @@ const HOOD_DATA = {
     ]
   },
   'civic-centre': {
-    name: '<span class="lang-en">Town / Civic Centre</span><span class="lang-zh">市中心 / 市政中心</span>',
-    about: '<span class="lang-en">Home to Markham Civic Centre and surrounding municipal offices — the administrative heart of the city, with growing mixed-use development nearby.</span><span class="lang-zh">萬錦市政中心及周邊市政辦公室所在地 — 全市行政核心地帶，附近亦有日益增長的綜合用途發展項目。</span>',
+    name: '<span class="lang-en">Town / Civic Centre</span><span class="lang-zh">Town / Civic Centre 市政廳</span>',
+    about: '<span class="lang-en">Town/Civic Centre is the urban heart of Ward 2, home to the iconic Circa Towers and Markham Civic Centre. At the intersection of Town Centre Blvd and Cox Blvd, Millennium Park serves as a popular gathering place for families, surrounded by vibrant condo living, townhomes, and semi-detached homes. The neighbourhood offers convenient access to parks, city services, and a growing, connected community.</span><span class="lang-zh">Town / Civic Centre 市政廳社區 是第二選區的核心地帶，擁有地標性的 Circa 雙子住宅大樓及萬錦市政廳。位於 Town Centre Blvd 與 Cox Blvd 交界的 Millennium Park，是深受家庭歡迎的休閒聚集地，周邊環繞高層公寓、鎮屋及半獨立屋，形成充滿活力且多元化的住宅社區。區內公園、市政設施及各項服務完善，交通便利，居民享有舒適便捷的生活環境。</span>',
     concerns: [
-      '<span class="lang-en">Coordinating with City Hall on services that directly affect Ward 2 residents</span><span class="lang-zh">與市政廳協調，跟進直接影響第二選區居民的市政服務</span>',
-      '<span class="lang-en">Ensuring nearby development stays in step with community needs</span><span class="lang-zh">確保周邊發展項目與社區需要保持同步</span>',
-      '<span class="lang-en">Improving pedestrian and traffic access around the civic precinct</span><span class="lang-zh">改善市政中心一帶的行人及交通通行狀況</span>'
+      '<span class="lang-en">Supporting Circa Residents - Serving as a strong bridge between Circa Condominium management, residents, and City staff to resolve issues and improve communication.</span><span class="lang-zh">支援 Circa 社區居民 - 擔任 Circa 住戶、管理處與市府之間的橋樑，積極協調溝通，協助居民解決各項問題。</span>',
+      '<span class="lang-en">A Safer Millennium Park - Advocating for enhanced safety for families and pets, including a dedicated off-leash dog area separate from playgrounds and high-use park spaces.</span><span class="lang-zh">打造更安全的 Millennium Park - 爭取提升公園安全，兼顧家庭與寵物使用需求，推動設立獨立、安全的狗隻免繩活動區。</span>',
+      '<span class="lang-en">Balanced Circa Phase 3 Development - Working proactively with residents and the developer to balance building height and density, secure community amenities, and protect neighbourhood livability.</span><span class="lang-zh">平衡 Circa 第三期發展 - 積極協調居民與發展商，平衡樓宇高度及密度、爭取社區公共空間，並盡力減低新發展對現有居民生活質素的影響。</span>'
     ]
   }
 };
