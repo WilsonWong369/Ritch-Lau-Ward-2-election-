@@ -62,8 +62,8 @@ const CE_ENTRIES = [
   {
     era: 'term',
     date: '<span class="lang-en">2022 – Ongoing</span><span class="lang-zh">2022年至今</span>',
-    label: '<span class="lang-en">Taste of Asia &amp; FCCM</span><span class="lang-zh">萬錦亞洲文化美食節與FCCM</span>',
-    title: '<span class="lang-en">Taste of Asia organizing committee &amp; FCCM volunteer</span><span class="lang-zh">「萬錦亞洲文化美食節」籌委會委員及FCCM義工</span>',
+    label: '<span class="lang-en">Taste of Asia &amp; FCCM</span><span class="lang-zh">亞洲風情節與FCCM</span>',
+    title: '<span class="lang-en">Taste of Asia organizing committee &amp; FCCM volunteer</span><span class="lang-zh">「亞洲風情節」籌委會委員及FCCM義工</span>',
     body: '<span class="lang-en">Ritch serves as an Organizing Committee member for the City of Markham\'s Taste of Asia festival, and volunteers with the Federation of Chinese Canadians in Markham (FCCM), helping connect residents across the community.</span><span class="lang-zh">劉肇麟擔任萬錦市「亞洲風情節」籌委會委員，同時是加拿大華人聯合會（萬錦）（FCCM）義工，致力連繫社區居民。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2022/07/withIsa-1-1024x683.jpg',
     alt: 'Ritch Lau volunteering with the Taste of Asia festival and FCCM'
@@ -72,7 +72,7 @@ const CE_ENTRIES = [
     era: 'term',
     date: '<span class="lang-en">2022 – 2026</span><span class="lang-zh">2022至2026年</span>',
     label: '<span class="lang-en">Founding member, A.C.E.</span><span class="lang-zh">A.C.E.創會成員</span>',
-    title: '<span class="lang-en">Founding member, Active Community Engagement (A.C.E.)</span><span class="lang-zh">Active Community Engagement（A.C.E.）政經民社創會成員</span>',
+    title: '<span class="lang-en">Founding member, Active Community Engagement (A.C.E.)</span><span class="lang-zh">Active Community Engagement（A.C.E.）創會成員</span>',
     body: '<span class="lang-en">As former President and a founding member of Active Community Engagement (A.C.E.), Ritch helped organize community initiatives such as rapid test kit giveaways for residents.</span><span class="lang-zh">劉肇麟為Active Community Engagement（A.C.E.）前任會長及創會成員，曾協助組織社區活動，包括為居民派發快速測試套裝。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2022/05/Rapid-Test-Kit-Giveaway-768x768.jpg',
     alt: 'Active Community Engagement rapid test kit giveaway event'
@@ -80,9 +80,9 @@ const CE_ENTRIES = [
   {
     era: 'term',
     date: '<span class="lang-en">2022 – 2026</span><span class="lang-zh">2022至2026年</span>',
-    label: '<span class="lang-en">Cherish Advisor</span><span class="lang-zh">Cherish智愛中心榮譽顧問</span>',
-    title: '<span class="lang-en">Honorary Advisor, Cherish Integrated Services</span><span class="lang-zh">Cherish Integrated Services智愛中心榮譽顧問</span>',
-    body: '<span class="lang-en">Ritch serves as an Honorary Advisor to Cherish Integrated Services, supporting their work in supporting people with intellectual disability.</span><span class="lang-zh">劉肇麟擔任Cherish智愛中心榮譽顧問，支持其服務智力障礙人士的工作。</span>',
+    label: '<span class="lang-en">Cherish Advisor</span><span class="lang-zh">Cherish榮譽顧問</span>',
+    title: '<span class="lang-en">Honorary Advisor, Cherish Integrated Services</span><span class="lang-zh">Cherish Integrated Services榮譽顧問</span>',
+    body: '<span class="lang-en">Ritch serves as an Honorary Advisor to Cherish Integrated Services, supporting their work in the community.</span><span class="lang-zh">劉肇麟擔任Cherish Integrated Services榮譽顧問，支持其社區服務工作。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2026/06/Cherish-768x768.jpg',
     alt: 'Ritch Lau with Cherish Integrated Services'
   },
@@ -91,7 +91,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">First term</span><span class="lang-zh">首個任期</span>',
     label: '<span class="lang-en">Traffic safety push</span><span class="lang-zh">爭取交通安全</span>',
     title: '<span class="lang-en">Working on traffic safety</span><span class="lang-zh">推動交通安全</span>',
-    body: '<span class="lang-en">As a young father himself, Ritch made speeding and neighbourhood traffic safety a priority, working with community groups and York Regional Police to make Ward 2 streets safer for families.</span><span class="lang-zh">身為年輕父親，劉肇麟將超速及社區交通安全列為首要工作，與社區組織及約克區警察合作，致力令第二區的街道對家庭更安全。</span>',
+    body: '<span class="lang-en">As a young father himself, Ritch made speeding and neighbourhood traffic safety a priority, working with community groups and York Regional Police to make Ward 2 streets safer for families.</span><span class="lang-zh">身為年輕父親，劉肇麟將超速及社區交通安全列為首要工作，與社區組織及約克區警察合作，致力令第二選區的街道對家庭更安全。</span>',
     placeholder: '<span class="lang-en">Traffic calming / radar board photo</span><span class="lang-zh">交通減速措施照片</span>'
   },
   {
@@ -99,7 +99,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">First term</span><span class="lang-zh">首個任期</span>',
     label: '<span class="lang-en">Community Centre advocacy</span><span class="lang-zh">爭取興建社區中心</span>',
     title: '<span class="lang-en">Pushing for a Ward 2 Community Centre</span><span class="lang-zh">爭取興建第二選區社區中心</span>',
-    body: '<span class="lang-en">Ritch has raised the question of why Ward 2 has never had its own community centre, and has advocated for a new multi-purpose facility to serve residents directly and ease pressure on Ward 6\'s Angus Glen Community Centre.</span><span class="lang-zh">劉肇麟一直質疑為何第二區從未擁有自己的社區中心，並爭取興建新的多用途設施，直接服務區內居民，同時紓緩Angus Glen社區中心（第六選區）的使用壓力。</span>',
+    body: '<span class="lang-en">Ritch has raised the question of why Ward 2 has never had its own community centre, and has advocated for a new multi-purpose facility to serve residents directly and ease pressure on Ward 6\'s Angus Glen Community Centre.</span><span class="lang-zh">劉肇麟一直質疑為何第二選區從未擁有自己的社區中心，並爭取興建新的多用途設施，直接服務區內居民，同時紓緩Angus Glen社區中心（第六選區）的使用壓力。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2026/07/Ward2Map-768x960.webp',
     alt: 'Ward 2 map'
   },
@@ -117,7 +117,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">Aug 1, 2026</span><span class="lang-zh">2026年8月1日</span>',
     label: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
     title: '<span class="lang-en">Re-election campaign launch</span><span class="lang-zh">連任競選啟動</span>',
-    body: '<span class="lang-en">Officially launches his re-election campaign, sharing his vision for Ward 2 and unveiling the 2026 Campaign Platform.</span><span class="lang-zh">正式啟動連任競選活動，分享他對第二區的願景，並公布2026年競選政綱。</span>',
+    body: '<span class="lang-en">Officially launches his re-election campaign, sharing his vision for Ward 2 and unveiling the 2026 Campaign Platform.</span><span class="lang-zh">正式啟動連任競選活動，分享他對第二選區的願景，並公布2026年競選政綱。</span>',
     img: 'pictuers/campaign-launch-aug2026.jpg',
     alt: 'Ritch Lau with volunteers and supporters at the 2026 campaign launch'
   },
@@ -126,7 +126,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">2026 – 2030</span><span class="lang-zh">2026至2030年</span>',
     label: '<span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span>',
     title: '<span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span>',
-    body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建全新多用途社區中心、改善社區及交通安全，並持續與居民保持緊密聯繫。</span>',
+    body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span>',
     img: 'pictuers/media-interview-lake.jpg',
     alt: 'Ritch Lau speaking with media by a Ward 2 pond'
   }
@@ -134,8 +134,8 @@ const CE_ENTRIES = [
 
 const CE_ERAS = [
   { key: 'campaign', dot: '#4A2C82', label: '<span class="lang-en">2022 · Campaign &amp; election</span><span class="lang-zh">2022年 · 競選與當選</span>' },
-  { key: 'term', dot: '#E8452C', label: '<span class="lang-en">2022–2026 · First term</span><span class="lang-zh">2022至2026年 · 首個任期</span>' },
-  { key: 'next', dot: '#F4B942', label: '<span class="lang-en">2026 → · What\'s next</span><span class="lang-zh">2026年起 · 未來展望</span>' }
+  { key: 'term', dot: '#17A398', label: '<span class="lang-en">2022–2026 · First term</span><span class="lang-zh">2022至2026年 · 首個任期</span>' },
+  { key: 'next', dot: '#5FD6C7', label: '<span class="lang-en">2026 → · What\'s next</span><span class="lang-zh">2026年起 · 未來展望</span>' }
 ];
 
 let ceSel = 0;
@@ -213,7 +213,7 @@ if (document.getElementById('ceNodes')) {
 // Ward 2 interactive neighbourhood map
 const HOOD_DATA = {
   buttonville: {
-    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville</span>',
+    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">畢頓維爾</span>',
     about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major mixed-use redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前畢頓維爾機場用地為中心的住宅區，現正轉型為大型綜合發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
     concerns: [
       '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">畢頓維爾重建項目的速度與規模</span>',
@@ -222,7 +222,7 @@ const HOOD_DATA = {
     ]
   },
   cachet: {
-    name: '<span class="lang-en">Cachet</span><span class="lang-zh">Cachet</span>',
+    name: '<span class="lang-en">Cachet</span><span class="lang-zh">卡切特</span>',
     about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校。</span>',
     concerns: [
       '<span class="lang-en">Protecting mature trees during construction nearby</span><span class="lang-zh">附近工程期間保護成熟樹木</span>',
@@ -231,7 +231,7 @@ const HOOD_DATA = {
     ]
   },
   cathedraltown: {
-    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown</span>',
+    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">天主教堂鎮</span>',
     about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道。</span>',
     concerns: [
       '<span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span>',
@@ -240,8 +240,8 @@ const HOOD_DATA = {
     ]
   },
   'victoria-square': {
-    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">Victoria Square</span>',
-    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Victoria Square Blvd (formerly Woodbine Ave） and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Victoria Square Blvd (前身爲Woodbine Ave）及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色。</span>',
+    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">維多利亞廣場</span>',
+    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色。</span>',
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
       '<span class="lang-en">Road capacity as surrounding areas intensify</span><span class="lang-zh">周邊地區發展加密下的道路承載力</span>',
@@ -249,8 +249,8 @@ const HOOD_DATA = {
     ]
   },
   springwater: {
-    name: '<span class="lang-en">Springwater</span><span class="lang-zh">Springwater</span>',
-    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and Elgin Mills, valued for its parks and lower-density streets.</span><span class="lang-zh">位於Warden Ave及Elgin Mills附近的寧靜住宅區，以公園及低密度街道見稱。</span>',
+    name: '<span class="lang-en">Springwater</span><span class="lang-zh">泉水社區</span>',
+    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and 19th Ave, bordering Ward 2\'s northern edge, valued for its parks and lower-density streets.</span><span class="lang-zh">位於Warden Ave及19 Ave附近的寧靜住宅區，緊鄰第二選區北面邊界，以公園及低密度街道見稱。</span>',
     concerns: [
       '<span class="lang-en">Maintenance of local parks and green space</span><span class="lang-zh">社區公園及綠化空間的維護</span>',
       '<span class="lang-en">Cut-through traffic from neighbouring wards</span><span class="lang-zh">鄰近選區車輛穿梭造成的交通問題</span>',
