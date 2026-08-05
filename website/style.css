@@ -522,12 +522,6 @@ body[data-lang="zh"] .ce-detail__text h3{ font-family:var(--font-zh); }
 }
 body[data-lang="zh"] .ward-map__zone-name{ font-family:var(--font-zh); }
 
-.ward-map__zone--victoria{ grid-area:victoria; }
-.ward-map__zone--springwater{ grid-area:springwater; }
-.ward-map__zone--buttonville{ grid-area:buttonville; }
-.ward-map__zone--cachet{ grid-area:cachet; }
-.ward-map__zone--cathedraltown{ grid-area:cathedraltown; }
-
 
 .ward-map__panel{
   border:2px solid var(--line);
