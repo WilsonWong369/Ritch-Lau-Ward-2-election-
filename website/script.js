@@ -213,48 +213,48 @@ if (document.getElementById('ceNodes')) {
 // Ward 2 interactive neighbourhood map
 const HOOD_DATA = {
   buttonville: {
-    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">畢頓維爾</span>',
-    about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major mixed-use redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前畢頓維爾機場用地為中心的住宅區，現正轉型為大型綜合發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
+    name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville</span>',
+    about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major industrial redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前Buttonville機場用地為中心的住宅區，現正轉型為大型倉庫發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
     concerns: [
-      '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">畢頓維爾重建項目的速度與規模</span>',
+      '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">機場土地改建項目的速度與規模</span>',
       '<span class="lang-en">Traffic flow along Hwy 404 corridor</span><span class="lang-zh">404號公路沿線的交通流量</span>',
       '<span class="lang-en">Ensuring new parks and schools keep pace with growth</span><span class="lang-zh">新公園及學校設施能否跟上發展步伐</span>'
     ]
   },
   cachet: {
-    name: '<span class="lang-en">Cachet</span><span class="lang-zh">卡切特</span>',
-    about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校。</span>',
+    name: '<span class="lang-en">Cachet</span><span class="lang-zh">Cachet</span>',
+    about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校</span>',
     concerns: [
-      '<span class="lang-en">Protecting mature trees during construction nearby</span><span class="lang-zh">附近工程期間保護成熟樹木</span>',
-      '<span class="lang-en">School capacity and safe walking routes</span><span class="lang-zh">學校學額及安全步行路線</span>',
+      '<span class="lang-en">Fighting property crimes, strengthening neighbourhood watch, and building safer communities together.</span><span class="lang-zh">致力打擊入屋盜竊、偷車等社區罪案，推動及加強鄰舍守望，攜手打造更安全的社區</span>',
+      '<span class="lang-en">Addressing issues related to mature trees, tree sap, and honeydew</span><span class="lang-zh">積極跟進成熟樹木、樹液及蜜露對居民造成的困擾</span>',
       '<span class="lang-en">Speeding and traffic calming on residential streets</span><span class="lang-zh">住宅街道超速問題及減速措施</span>'
     ]
   },
   cathedraltown: {
-    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">天主教堂鎮</span>',
-    about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道。</span>',
+    name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown</span>',
+    about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道</span>',
     concerns: [
+      '<span class="lang-en">Successfully secured additional overnight street parking spaces to better serve residents</span><span class="lang-zh">成功爭取增加過夜路邊停車位，回應居民實際需要</span>',
       '<span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span>',
-      '<span class="lang-en">Stormwater and drainage management</span><span class="lang-zh">雨水及排水系統管理</span>',
-      '<span class="lang-en">Transit access for a newer community</span><span class="lang-zh">新社區的公共交通接駁</span>'
+      '<span class="lang-en">Proactively addressing noise concerns and preserving a peaceful community</span><span class="lang-zh">以積極、盡責的態度跟進居民噪音滋擾訴求，協助尋求解決方案，保障居民生活質素</span>'
     ]
   },
   'victoria-square': {
-    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">維多利亞廣場</span>',
-    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色。</span>',
+    name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">Victoria Square</span>',
+    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色</span>',
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
-      '<span class="lang-en">Road capacity as surrounding areas intensify</span><span class="lang-zh">周邊地區發展加密下的道路承載力</span>',
-      '<span class="lang-en">Sidewalk and cycling connections to newer subdivisions</span><span class="lang-zh">連接新社區的行人道及單車徑</span>'
+      '<span class="lang-en">Helped secure the largest City capital investment of 2025 for the Victoria Square Boulevard Reconstruction Project</span><span class="lang-zh">2025年積極爭取並協助促成市府於最大規模的投資撥款，用於維多利亞廣場大道（Victoria Square Boulevard）重建工程</span>',
+      '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>'
     ]
   },
   springwater: {
-    name: '<span class="lang-en">Springwater</span><span class="lang-zh">泉水社區</span>',
-    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and 19th Ave, bordering Ward 2\'s northern edge, valued for its parks and lower-density streets.</span><span class="lang-zh">位於Warden Ave及19 Ave附近的寧靜住宅區，緊鄰第二選區北面邊界，以公園及低密度街道見稱。</span>',
+    name: '<span class="lang-en">Springwater</span><span class="lang-zh">Springwater</span>',
+    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and Elgin Mills Rd, valued for its parks and lower-density streets</span><span class="lang-zh">位於Warden Ave及Elgin Mills Rd附近的寧靜住宅區，以公園及低密度街道見稱</span>',
     concerns: [
-      '<span class="lang-en">Maintenance of local parks and green space</span><span class="lang-zh">社區公園及綠化空間的維護</span>',
-      '<span class="lang-en">Cut-through traffic from neighbouring wards</span><span class="lang-zh">鄰近選區車輛穿梭造成的交通問題</span>',
-      '<span class="lang-en">Street lighting and winter road maintenance</span><span class="lang-zh">路燈及冬季道路維修</span>'
+      '<span class="lang-en">Acted as a key liaison between City staff and developers during the transition of municipal services, helping ensure a smooth process for residents</span><span class="lang-zh">在市政服務過渡期間，擔任市府及發展商之間的重要協調橋樑，確保居民服務順利銜接</span>',
+      '<span class="lang-en">Worked with City staff and stakeholders to keep the Stoney Hill and Vine Cliff Bridge construction projects on track and moving forward</span><span class="lang-zh">與市府工作人員及相關持份者緊密合作，確保 Stoney Hill 及 Vine Cliff 橋樑工程如期推進</span>',
+      '<span class="lang-en">Supported new homeowners by addressing concerns and helping resolve issues with their new homes</span><span class="lang-zh">積極協助新業主跟進新居相關問題，協調各方處理居民訴求</span>'
     ]
   }
 };
