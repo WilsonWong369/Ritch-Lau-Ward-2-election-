@@ -277,7 +277,7 @@ function selectHood(hood) {
   mapPanelBody.innerHTML = `
     <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
     <p>${data.about}</p>
-    <p class="hood-card__label"><span class="lang-en">Common concerns</span><span class="lang-zh">常見關注議題</span></p>
+    <p class="hood-card__label"><span class="lang-en">Key Priorities</span><span class="lang-zh">重點議題</span></p>
     <ul>${data.concerns.map(c => `<li>${c}</li>`).join('')}</ul>
   `;
 }
