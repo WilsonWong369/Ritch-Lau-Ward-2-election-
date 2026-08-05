@@ -46,7 +46,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
     body: '<span class="lang-en">Won the 2022 Municipal Election with 3,012 votes, became Councillor for Ward 2 and began direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為萬錦市第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span>',
-    img: 'images/elected-ward2-councillor.jpg',
+    img: 'https://i.ytimg.com/vi/-8U7QpN1y6o/maxresdefault.jpg',
     alt: 'Ritch Lau portrait',
     fit: 'contain'
   },
@@ -92,7 +92,8 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Neighbourhood & Traffic safety push</span><span class="lang-zh">爭取社區及交通安全</span>',
     title: '<span class="lang-en">Working on neighbourhood & traffic safety</span><span class="lang-zh">推動社區及交通安全</span>',
     body: '<span class="lang-en">As a father of two, Ritch understands that every family deserves to feel safe. He has made neighbourhood and traffic safety a top priority, partnering with Neighbourhood Watch Groups and York Regional Police to make Ward 2 safer and help reduce crime.</span><span class="lang-zh">身為兩個孩子的父親，劉肇麟深信每個家庭都應該享有安全安心的生活環境。他將社區安全及道路安全列為首要議題，與社區團體及約克區警政緊密合作，讓第二選區街道更安全，並共同努力減少罪案。</span>',
-    placeholder: '<span class="lang-en">Traffic calming / radar board photo</span><span class="lang-zh">交通減速措施照片</span>'
+    img: 'https://ritchlau.ca/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-11-at-3.14.47-PM-768x576.jpeg',
+    alt: 'Ritch worked closely with York Regional Police to tackle crime rates and road safety'
   },
   {
     era: 'term',
@@ -100,8 +101,8 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Community Centre advocacy</span><span class="lang-zh">爭取興建社區中心</span>',
     title: '<span class="lang-en">Pushing for a Ward 2 Community Centre</span><span class="lang-zh">爭取興建第二選區社區中心</span>',
     body: '<span class="lang-en">Councillor Lau brought forward and successfully passed a motion addressing Ward 2’s long-standing need for its own dedicated community centre. The motion highlighted the growing demand for sports and recreational programs, where available spaces continue to fall short of residents’ needs. It received unanimous support from the Mayor, Deputy Mayor, and all Members of Markham City Council, marking an important step toward securing a future community centre.</span><span class="lang-zh">劉議員提出並成功推動個人議案，反映第二區居民多年來缺乏專屬社區中心的現況，以及體育及康樂活動名額長期供不應求的需求。議案最終獲得市長、副市長及全體萬錦市議員一致支持通過，為爭取落實全新社區中心邁出重要一步。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2026/07/Ward2Map-768x960.webp',
-    alt: 'Ward 2 map'
+    img: 'https://ritchlau.ca/wp-content/uploads/2024/11/unnamed.jpg',
+    alt: 'The existing Victoria Square Community Centre'
   },
   {
     era: 'term',
