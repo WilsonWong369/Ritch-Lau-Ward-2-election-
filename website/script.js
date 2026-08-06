@@ -32,6 +32,15 @@ if (ceLangToggle) {
 // Community Engagement timeline (era filters + scrollable track + detail panel)
 const CE_ENTRIES = [
   {
+    era: 'news',
+    date: '<span class="lang-en">2005 – 2022</span><span class="lang-zh">2022至2026年</span>',
+    label: '<span class="lang-en">Media & Journalism</span><span class="lang-zh">媒體與新聞工作</span>',
+    title: '<span class="lang-en">Former Journalist, Reporter, News Anchor</span><span class="lang-zh">前媒體人，記者，新聞主播</span>',
+    body: '<span class="lang-en">Before entering public service, Ritch spent 15 years in the media industry as a respected television news anchor with Fairchild TV, becoming a trusted voice and familiar face to Chinese Canadian families across the country. Known for his integrity, professionalism, and commitment to the truth, he believed those same values would enable him to serve the community in a greater capacity. In 2022, he left his full-time broadcasting career to run for Markham City Council, determined to be a strong and effective voice for residents.</span><span class="lang-zh">投身公共服務前，劉肇麟（Ritch Lau）在傳媒界工作15年，曾擔任新時代電視（Fairchild TV）晚間新聞主播，以專業、誠信及堅持真相的新聞精神，成為加拿大華人家庭熟悉且信賴的新聞主播。他深信，這些核心價值同樣是服務社區的重要基石，因此於2022年毅然離開全職傳媒工作，參選萬錦市議會，致力成為居民可靠的代言人，為社區發聲、為市民服務。</span>',
+    img: 'https://ritchlau.ca/wp-content/uploads/2022/05/ftvport01.png',
+    alt: 'Ritch Lau hosting the evening news program during the COVID Pandemic'
+  },
+  {
     era: 'campaign',
     date: '<span class="lang-en">May 5, 2022</span><span class="lang-zh">2022年5月5日</span>',
     label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span>',
@@ -134,9 +143,10 @@ const CE_ENTRIES = [
 ];
 
 const CE_ERAS = [
-  { key: 'campaign', dot: '#4A2C82', label: '<span class="lang-en">2022 · Campaign &amp; election</span><span class="lang-zh">2022年 · 競選與當選</span>' },
+  { key: 'news', dot: '#4A2C82', label: '<span class="lang-en">2005-2022 · Media &amp; Journalism</span><span class="lang-zh">2005-2022年 · 媒體與新聞工作</span>' },
+  { key: 'campaign', dot: '#6039a8', label: '<span class="lang-en">2022 · Campaign &amp; election</span><span class="lang-zh">2022年 · 參選與當選</span>' },
   { key: 'term', dot: '#17A398', label: '<span class="lang-en">2022–2026 · First term</span><span class="lang-zh">2022至2026年 · 首個任期</span>' },
-  { key: 'next', dot: '#5FD6C7', label: '<span class="lang-en">2026 → · What\'s next</span><span class="lang-zh">2026年起 · 未來展望</span>' }
+  { key: 'next', dot: '#5FD6C7', label: '<span class="lang-en">2026 → · Re-Election & Second Term</span><span class="lang-zh">2026年 · 競選連任</span>' }
 ];
 
 let ceSel = 0;
