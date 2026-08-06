@@ -45,7 +45,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">May 5, 2022</span><span class="lang-zh">2022年5月5日</span>',
     label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">率先宣布參選</span>',
     title: '<span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span>',
-    body: '<span class="lang-en">Ritch was the first candidate to officially register for the 2022 Ward 2 election, demonstrating his commitment and readiness to serve. From day one, his campaign focused on the issues that matter most to residents: improving community and traffic safety, ensuring responsible budget management, protecting taxpayers' dollars, and expanding recreational facilities and green spaces for families to enjoy.</span><span class="lang-zh">劉肇麟是2022年萬錦市第二選區首位正式登記參選的候選人，展現了服務社區的決心與承擔。自競選第一天起，他便聚焦居民最關心的議題，包括提升社區及交通安全、審慎管理公共財政、善用納稅人的每一分錢，以及增加康樂設施和綠化空間，建設更宜居的社區。</span>',
+    body: '<span class="lang-en">Ritch was the first candidate to officially register for the 2022 Ward 2 election, demonstrating his commitment and readiness to serve. From day one, his campaign focused on the issues that matter most to residents: improving community and traffic safety, ensuring responsible budget management, protecting taxpayers\' dollars, and expanding recreational facilities and green spaces for families to enjoy.</span><span class="lang-zh">劉肇麟是2022年萬錦市第二選區首位正式登記參選的候選人，展現了服務社區的決心與承擔。自競選第一天起，他便聚焦居民最關心的議題，包括提升社區及交通安全、審慎管理公共財政、善用納稅人的每一分錢，以及增加康樂設施和綠化空間，建設更宜居的社區。</span>',
     img: 'images/candidacy-may2022.jpg',
     alt: 'Ritch Lau with supporters holding Ward 2 campaign signs'
   },
@@ -256,7 +256,7 @@ const HOOD_DATA = {
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
       '<span class="lang-en">Helped secure the largest City capital investment of 2025 for the Victoria Square Boulevard Reconstruction Project</span><span class="lang-zh">2025年積極爭取並協助促成市府於最大規模的投資撥款，用於維多利亞廣場大道（Victoria Square Boulevard）重建工程</span>',
-      '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>'
+      '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>',
       '<span class="lang-en">Successfully advocated for a Pop-up Off-Leash Dog Area at Victoria Square Park for two consecutive years. Widely supported by residents, Ritch continues to work towards making it a permanent facility to provide a better recreational space for residents and their furry companions.</span><span class="lang-zh">成功爭取於 Victoria Square Park 連續兩年設立臨時免圈繩狗公園（Pop-up Off-Leash Dog Area），廣受居民歡迎，並正積極推動將其升級為永久設施，為居民及毛孩提供更完善的休閒空間。</span>'
     ]
   },
