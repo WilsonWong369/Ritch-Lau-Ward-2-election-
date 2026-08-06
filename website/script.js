@@ -243,10 +243,10 @@ const HOOD_DATA = {
   },
   cathedraltown: {
     name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown 大教堂區</span>',
-    about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道</span>',
+    about: '<span class="lang-en">Built around the iconic Cathedral of the Transfiguration. Cathedraltown is a unique Ward 2 community known for its heritage-inspired architecture, beautiful streetscapes, and strong sense of community. With parks, trails, and green spaces throughout, it offers a peaceful and family-friendly neighbourhood.</span><span class="lang-zh">以大教堂為中心的社區，以仿古建築風格、優美街景及濃厚的社區精神著稱。區內綠意盎然，設有公園及步道，打造出寧靜舒適、適合家庭生活的環境。</span>',
     concerns: [
       '<span class="lang-en">Successfully secured additional overnight street parking spaces to better serve residents</span><span class="lang-zh">成功爭取增加過夜路邊停車位，回應居民實際需要</span>',
-      '<span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span>',
+      '<span class="lang-en">Worked with York Region to address residents’ traffic safety concerns by advocating for additional speed reduction signage and safety measures along Woodbine Bypass to better protect students and families during school drop-off and pick-up times.</span><span class="lang-zh">積極反映居民關注的日常交通問題，向約克區政府爭取在 Woodbine Bypass 增設減速提示牌及相關安全設施，提升道路安全，保障學生及家長上學及放學期間的通行安全。</span>',
       '<span class="lang-en">Proactively addressing noise concerns and preserving a peaceful community</span><span class="lang-zh">以積極、盡責的態度跟進居民噪音滋擾訴求，協助尋求解決方案，保障居民生活質素</span>'
     ]
   },
@@ -257,6 +257,7 @@ const HOOD_DATA = {
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
       '<span class="lang-en">Helped secure the largest City capital investment of 2025 for the Victoria Square Boulevard Reconstruction Project</span><span class="lang-zh">2025年積極爭取並協助促成市府於最大規模的投資撥款，用於維多利亞廣場大道（Victoria Square Boulevard）重建工程</span>',
       '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>'
+      '<span class="lang-en">Successfully advocated for a Pop-up Off-Leash Dog Area at Victoria Square Park for two consecutive years. Widely supported by residents, Ritch continues to work towards making it a permanent facility to provide a better recreational space for residents and their furry companions.</span><span class="lang-zh">成功爭取於 Victoria Square Park 連續兩年設立臨時免圈繩狗公園（Pop-up Off-Leash Dog Area），廣受居民歡迎，並正積極推動將其升級為永久設施，為居民及毛孩提供更完善的休閒空間。</span>'
     ]
   },
   springwater: {
