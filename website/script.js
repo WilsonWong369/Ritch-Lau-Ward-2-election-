@@ -32,11 +32,20 @@ if (ceLangToggle) {
 // Community Engagement timeline (era filters + scrollable track + detail panel)
 const CE_ENTRIES = [
   {
+    era: 'news',
+    date: '<span class="lang-en">2005 – 2022</span><span class="lang-zh">2022至2026年</span>',
+    label: '<span class="lang-en">Media & Journalism</span><span class="lang-zh">媒體與新聞工作</span>',
+    title: '<span class="lang-en">Former Journalist, Reporter, News Anchor</span><span class="lang-zh">前媒體人，記者，新聞主播</span>',
+    body: '<span class="lang-en">Before entering public service, Ritch spent 15 years in the media industry as a respected television news anchor with Fairchild TV, becoming a trusted voice and familiar face to Chinese Canadian families across the country. Known for his integrity, professionalism, and commitment to the truth, he believed those same values would enable him to serve the community in a greater capacity. In 2022, he left his full-time broadcasting career to run for Markham City Council, determined to be a strong and effective voice for residents.</span><span class="lang-zh">投身公共服務前，劉肇麟（Ritch Lau）在傳媒界工作15年，曾擔任新時代電視（Fairchild TV）晚間新聞主播，以專業、誠信及堅持真相的新聞精神，成為加拿大華人家庭熟悉且信賴的新聞主播。他深信，這些核心價值同樣是服務社區的重要基石，因此於2022年毅然離開全職傳媒工作，參選萬錦市議會，致力成為居民可靠的代言人，為社區發聲、為市民服務。</span>',
+    img: 'https://ritchlau.ca/wp-content/uploads/2022/05/ftvport01.png',
+    alt: 'Ritch Lau hosting the evening news program during the COVID Pandemic'
+  },
+  {
     era: 'campaign',
     date: '<span class="lang-en">May 5, 2022</span><span class="lang-zh">2022年5月5日</span>',
-    label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">宣布參選</span>',
+    label: '<span class="lang-en">Announces candidacy</span><span class="lang-zh">率先宣布參選</span>',
     title: '<span class="lang-en">First to register as a candidate</span><span class="lang-zh">首位登記參選人</span>',
-    body: '<span class="lang-en">Ritch was the first to register as a candidate for Ward 2, launching his campaign with a focus on community & traffic safety, budget management, and more recreational and green space for the community.</span><span class="lang-zh">劉肇麟成為第二選區首位登記參選人，競選重點包括社區及交通安全、財政管理，以及增加社區康樂及綠化空間。</span>',
+    body: '<span class="lang-en">Ritch was the first candidate to officially register for the 2022 Ward 2 election, demonstrating his commitment and readiness to serve. From day one, his campaign focused on the issues that matter most to residents: improving community and traffic safety, ensuring responsible budget management, protecting taxpayers\' dollars, and expanding recreational facilities and green spaces for families to enjoy.</span><span class="lang-zh">劉肇麟是2022年萬錦市第二選區首位正式登記參選的候選人，展現了服務社區的決心與承擔。自競選第一天起，他便聚焦居民最關心的議題，包括提升社區及交通安全、審慎管理公共財政、善用納稅人的每一分錢，以及增加康樂設施和綠化空間，建設更宜居的社區。</span>',
     img: 'images/candidacy-may2022.jpg',
     alt: 'Ritch Lau with supporters holding Ward 2 campaign signs'
   },
@@ -45,7 +54,7 @@ const CE_ENTRIES = [
     date: '<span class="lang-en">October 2022</span><span class="lang-zh">2022年10月</span>',
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
-    body: '<span class="lang-en">Won the 2022 Municipal Election with 3,012 votes, became Councillor for Ward 2 and began direct constituent work across Civic Centre, Buttonville, Cachet, Cathedraltown, Victoria Square, and Springwater.</span><span class="lang-zh">在2022年市政選舉中以3,012票當選，成為萬錦市第二選區市議員，開始為Civic Centre、Buttonville、Cachet、Cathedraltown、Victoria Square及Springwater的居民直接服務。</span>',
+    body: '<span class="lang-en">Elected as Ward 2 Councillor in 2022, Ritch received 3,012 votes—the highest vote share among all newly elected councillors in Markham—reflecting a strong level of trust and support from residents. He also became the youngest member of Markham City Council. In his inaugural address, Ritch pledged to be a responsible, responsive, and hardworking councillor, committed to serving residents with integrity and dedication for years to come.</span><span class="lang-zh">當選萬錦市第二選區市議員後，劉肇麟在2022年市選中獲得3,012票支持，成為萬錦市新當選議員中得票率最高的候選人，充分反映選民對他的信任與支持；同時，他亦是當屆市議會最年輕的市議員。在就職演說中，他承諾以盡責、高效、積極回應居民需要的態度服務社區，致力成為一位值得居民長期信賴的市議員。</span>',
     img: 'https://i.ytimg.com/vi/-8U7QpN1y6o/maxresdefault.jpg',
     alt: 'Ritch Lau portrait',
     fit: 'contain'
@@ -134,9 +143,10 @@ const CE_ENTRIES = [
 ];
 
 const CE_ERAS = [
-  { key: 'campaign', dot: '#4A2C82', label: '<span class="lang-en">2022 · Campaign &amp; election</span><span class="lang-zh">2022年 · 競選與當選</span>' },
+  { key: 'news', dot: '#4A2C82', label: '<span class="lang-en">2005-2022 · Media &amp; Journalism</span><span class="lang-zh">2005-2022年 · 媒體與新聞工作</span>' },
+  { key: 'campaign', dot: '#7950c4', label: '<span class="lang-en">2022 · Campaign &amp; election</span><span class="lang-zh">2022年 · 參選與當選</span>' },
   { key: 'term', dot: '#17A398', label: '<span class="lang-en">2022–2026 · First term</span><span class="lang-zh">2022至2026年 · 首個任期</span>' },
-  { key: 'next', dot: '#5FD6C7', label: '<span class="lang-en">2026 → · What\'s next</span><span class="lang-zh">2026年起 · 未來展望</span>' }
+  { key: 'next', dot: '#5FD6C7', label: '<span class="lang-en">2026 → · Re-Election & Second Term</span><span class="lang-zh">2026年 · 競選連任</span>' }
 ];
 
 let ceSel = 0;
@@ -233,10 +243,10 @@ const HOOD_DATA = {
   },
   cathedraltown: {
     name: '<span class="lang-en">Cathedraltown</span><span class="lang-zh">Cathedraltown 大教堂區</span>',
-    about: '<span class="lang-en">A newer master-planned community centred on the Cathedral of the Transfiguration, with a mix of housing types, the Angus Glen North golf lands nearby, and newer parks and trails.</span><span class="lang-zh">以主易聖容主教座堂為中心的新規劃社區，設有多種房屋類型，鄰近Angus Glen North高爾夫球場用地，並設有較新的公園及步道</span>',
+    about: '<span class="lang-en">Built around the iconic Cathedral of the Transfiguration. Cathedraltown is a unique Ward 2 community known for its heritage-inspired architecture, beautiful streetscapes, and strong sense of community. With parks, trails, and green spaces throughout, it offers a peaceful and family-friendly neighbourhood.</span><span class="lang-zh">以大教堂為中心的社區，以仿古建築風格、優美街景及濃厚的社區精神著稱。區內綠意盎然，設有公園及步道，打造出寧靜舒適、適合家庭生活的環境。</span>',
     concerns: [
       '<span class="lang-en">Successfully secured additional overnight street parking spaces to better serve residents</span><span class="lang-zh">成功爭取增加過夜路邊停車位，回應居民實際需要</span>',
-      '<span class="lang-en">Completion of promised parks and trail connections</span><span class="lang-zh">承諾興建的公園及步道連接工程進度</span>',
+      '<span class="lang-en">Worked with York Region to address residents’ traffic safety concerns by advocating for additional speed reduction signage and safety measures along Woodbine Bypass to better protect students and families during school drop-off and pick-up times.</span><span class="lang-zh">積極反映居民關注的日常交通問題，向約克區政府爭取在 Woodbine Bypass 增設減速提示牌及相關安全設施，提升道路安全，保障學生及家長上學及放學期間的通行安全。</span>',
       '<span class="lang-en">Proactively addressing noise concerns and preserving a peaceful community</span><span class="lang-zh">以積極、盡責的態度跟進居民噪音滋擾訴求，協助尋求解決方案，保障居民生活質素</span>'
     ]
   },
@@ -246,7 +256,8 @@ const HOOD_DATA = {
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
       '<span class="lang-en">Helped secure the largest City capital investment of 2025 for the Victoria Square Boulevard Reconstruction Project</span><span class="lang-zh">2025年積極爭取並協助促成市府於最大規模的投資撥款，用於維多利亞廣場大道（Victoria Square Boulevard）重建工程</span>',
-      '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>'
+      '<span class="lang-en">Passed a motion directing City staff to work toward a new community centre</span><span class="lang-zh">成功推動個人議案並獲市議會通過，指示市府展開第二選區未來多用途社區中心的研究及規劃工作</span>',
+      '<span class="lang-en">Successfully advocated for a Pop-up Off-Leash Dog Area at Victoria Square Park for two consecutive years. Widely supported by residents, Ritch continues to work towards making it a permanent facility to provide a better recreational space for residents and their furry companions.</span><span class="lang-zh">成功爭取於 Victoria Square Park 連續兩年設立臨時免圈繩狗公園（Pop-up Off-Leash Dog Area），廣受居民歡迎，並正積極推動將其升級為永久設施，為居民及毛孩提供更完善的休閒空間。</span>'
     ]
   },
   springwater: {
