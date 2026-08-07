@@ -37,7 +37,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Media & Journalism</span><span class="lang-zh">媒體與新聞工作</span>',
     title: '<span class="lang-en">Former Journalist, Reporter, News Anchor</span><span class="lang-zh">前媒體人，記者，新聞主播</span>',
     body: '<span class="lang-en">Before entering public service, Ritch spent 15 years in the media industry as a respected television news anchor with Fairchild TV, becoming a trusted voice and familiar face to Chinese Canadian families across the country. Known for his integrity, professionalism, and commitment to the truth, he believed those same values would enable him to serve the community in a greater capacity. In 2022, he left his full-time broadcasting career to run for Markham City Council, determined to be a strong and effective voice for residents.</span><span class="lang-zh">投身公共服務前，劉肇麟（Ritch Lau）在傳媒界工作15年，曾擔任新時代電視（Fairchild TV）晚間新聞主播，以專業、誠信及堅持真相的新聞精神，成為加拿大華人家庭熟悉且信賴的新聞主播。他深信，這些核心價值同樣是服務社區的重要基石，因此於2022年毅然離開全職傳媒工作，參選萬錦市議會，致力成為居民可靠的代言人，為社區發聲、為市民服務。</span>',
-    img: 'images\TVnews.png',
+    img: 'images/TVnews.png',
     alt: 'Ritch Lau hosting the evening news program during the COVID Pandemic'
   },
   {
@@ -46,7 +46,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Founding member, Former President of A.C.E.</span><span class="lang-zh">A.C.E.政經民社創會成員及前會長</span>',
     title: '<span class="lang-en">Founding member, Former President of Active Community Engagement (A.C.E.)</span><span class="lang-zh">政經民社（A.C.E.）創會成員及前會長</span>',
     body: '<span class="lang-en">As a former President and founding member of Active Community Engagement (A.C.E.), Ritch helped organize community initiatives, including a mayoral by-election debate and rapid test kit giveaways for residents during the COVID-19 pandemic.</span><span class="lang-zh">劉肇麟為政經民社（安省政治經濟民生社區促進會 A.C.E.）前任會長及創會成員，曾積極協助推動多項社區活動，包括籌辦市長補選論壇，並於新冠疫情期間為居民派發快速測試包，支援社區需要。。</span>',
-    img: 'images\ACE2021.png',
+    img: 'images/ACE2021.jpg',
     alt: 'Active Community Engagement rapid test kit giveaway event'
   },
   {
@@ -64,7 +64,7 @@ const CE_ENTRIES = [
     label: '<span class="lang-en">Platinum Jubilee Medal</span><span class="lang-zh">白金禧獎章</span>',
     title: '<span class="lang-en">Queen Elizabeth II\'s Platinum Jubilee Medal recipient</span><span class="lang-zh">獲頒女皇伊麗莎白二世白金禧獎章</span>',
     body: '<span class="lang-en">Ritch was recognized as a recipient of the Queen Elizabeth II\'s Platinum Jubilee Medal in 2022, honouring his contributions to the community.</span><span class="lang-zh">劉肇麟於2022年獲頒女皇伊麗莎白二世白金禧獎章，以表揚他對社區的貢獻。</span>',
-    img: 'images/jubilee2022.jpg',
+    img: 'images/jubilee2022.png',
     alt: "Queen Elizabeth II's Platinum Jubilee Medal certificate and pin"
   },
   {
