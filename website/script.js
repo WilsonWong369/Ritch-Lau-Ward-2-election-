@@ -33,12 +33,21 @@ if (ceLangToggle) {
 const CE_ENTRIES = [
   {
     era: 'news',
-    date: '<span class="lang-en">2005 – 2022</span><span class="lang-zh">2022至2026年</span>',
+    date: '<span class="lang-en">2005 – 2022</span><span class="lang-zh">2005至2026年</span>',
     label: '<span class="lang-en">Media & Journalism</span><span class="lang-zh">媒體與新聞工作</span>',
     title: '<span class="lang-en">Former Journalist, Reporter, News Anchor</span><span class="lang-zh">前媒體人，記者，新聞主播</span>',
     body: '<span class="lang-en">Before entering public service, Ritch spent 15 years in the media industry as a respected television news anchor with Fairchild TV, becoming a trusted voice and familiar face to Chinese Canadian families across the country. Known for his integrity, professionalism, and commitment to the truth, he believed those same values would enable him to serve the community in a greater capacity. In 2022, he left his full-time broadcasting career to run for Markham City Council, determined to be a strong and effective voice for residents.</span><span class="lang-zh">投身公共服務前，劉肇麟（Ritch Lau）在傳媒界工作15年，曾擔任新時代電視（Fairchild TV）晚間新聞主播，以專業、誠信及堅持真相的新聞精神，成為加拿大華人家庭熟悉且信賴的新聞主播。他深信，這些核心價值同樣是服務社區的重要基石，因此於2022年毅然離開全職傳媒工作，參選萬錦市議會，致力成為居民可靠的代言人，為社區發聲、為市民服務。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2022/05/ftvport01.png',
     alt: 'Ritch Lau hosting the evening news program during the COVID Pandemic'
+  },
+  {
+    era: 'news',
+    date: '<span class="lang-en">2021 – 2022</span><span class="lang-zh">2021至2022年</span>',
+    label: '<span class="lang-en">Founding member, Former President of A.C.E.</span><span class="lang-zh">A.C.E.政經民社創會成員及前會長</span>',
+    title: '<span class="lang-en">Founding member, Former President of Active Community Engagement (A.C.E.)</span><span class="lang-zh">政經民社（A.C.E.）創會成員及前會長</span>',
+    body: '<span class="lang-en">As a former President and founding member of Active Community Engagement (A.C.E.), Ritch helped organize community initiatives, including a mayoral by-election debate and rapid test kit giveaways for residents during the COVID-19 pandemic.</span><span class="lang-zh">劉肇麟為政經民社（安省政治經濟民生社區促進會 A.C.E.）前任會長及創會成員，曾積極協助推動多項社區活動，包括籌辦市長補選論壇，並於新冠疫情期間為居民派發快速測試包，支援社區需要。。</span>',
+    img: 'https://ritchlau.ca/wp-content/uploads/2022/05/Rapid-Test-Kit-Giveaway-768x768.jpg',
+    alt: 'Active Community Engagement rapid test kit giveaway event'
   },
   {
     era: 'campaign',
@@ -51,6 +60,15 @@ const CE_ENTRIES = [
   },
   {
     era: 'campaign',
+    date: '<span class="lang-en">2022</span><span class="lang-zh">2022年</span>',
+    label: '<span class="lang-en">Platinum Jubilee Medal</span><span class="lang-zh">白金禧獎章</span>',
+    title: '<span class="lang-en">Queen Elizabeth II\'s Platinum Jubilee Medal recipient</span><span class="lang-zh">獲頒女皇伊麗莎白二世白金禧獎章</span>',
+    body: '<span class="lang-en">Ritch was recognized as a recipient of the Queen Elizabeth II\'s Platinum Jubilee Medal in 2022, honouring his contributions to the community.</span><span class="lang-zh">劉肇麟於2022年獲頒女皇伊麗莎白二世白金禧獎章，以表揚他對社區的貢獻。</span>',
+    img: 'https://ritchlau.ca/wp-content/uploads/2022/07/CertPin1-768x1024.jpg',
+    alt: "Queen Elizabeth II's Platinum Jubilee Medal certificate and pin"
+  },
+  {
+    era: 'campaign',
     date: '<span class="lang-en">October 2022</span><span class="lang-zh">2022年10月</span>',
     label: '<span class="lang-en">Elected Councillor</span><span class="lang-zh">當選市議員</span>',
     title: '<span class="lang-en">Elected Ward 2 Councillor</span><span class="lang-zh">當選第二選區市議員</span>',
@@ -60,64 +78,46 @@ const CE_ENTRIES = [
     fit: 'contain'
   },
   {
-    era: 'campaign',
-    date: '<span class="lang-en">2022</span><span class="lang-zh">2022年</span>',
-    label: '<span class="lang-en">Platinum Jubilee Medal</span><span class="lang-zh">白金禧獎章</span>',
-    title: '<span class="lang-en">Queen Elizabeth II\'s Platinum Jubilee Medal recipient</span><span class="lang-zh">獲頒女皇伊麗莎白二世白金禧獎章</span>',
-    body: '<span class="lang-en">Ritch was recognized as a recipient of the Queen Elizabeth II\'s Platinum Jubilee Medal in 2022, honouring his contributions to the community.</span><span class="lang-zh">劉肇麟於2022年獲頒女皇伊麗莎白二世白金禧獎章，以表揚他對社區的貢獻。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2022/07/CertPin1-768x1024.jpg',
-    alt: "Queen Elizabeth II's Platinum Jubilee Medal certificate and pin"
-  },
-  {
     era: 'term',
     date: '<span class="lang-en">2022 – Ongoing</span><span class="lang-zh">2022年至今</span>',
     label: '<span class="lang-en">Taste of Asia &amp; FCCM</span><span class="lang-zh">亞洲文化美食節與FCCM</span>',
     title: '<span class="lang-en">Taste of Asia organizing committee &amp; FCCM volunteer</span><span class="lang-zh">「亞洲文化美食節」籌委會委員及FCCM義工</span>',
-    body: '<span class="lang-en">Ritch serves as an Organizing Committee member for the City of Markham\'s Taste of Asia festival, and volunteers with the Federation of Chinese Canadians in Markham (FCCM), helping connect residents across the community.</span><span class="lang-zh">劉肇麟擔任萬錦市「亞洲文化美食節」籌委會委員，同時是萬錦市加華聯會（FCCM）義工，致力連繫社區居民。</span>',
+    body: '<span class="lang-en">Ritch serves on the Organizing Committee for the City of Markham’s Taste of Asia festival and volunteers with the Federation of Chinese Canadians in Markham (FCCM), helping bring the community together. Through Taste of Asia, he has helped grow one of Markham’s largest cultural festivals, attracting over 200,000 visitors annually and supporting local businesses and restaurants.</span><span class="lang-zh">劉肇麟現為萬錦市「亞洲文化美食節」（Taste of Asia）籌委會成員，並積極參與萬錦加華聯會（FCCM）的社區服務工作，凝聚社區力量。透過參與亞洲文化美食節，他協助推動萬錦市其中一項大型文化盛事，每年吸引超過20萬名訪客，不僅促進社區交流，也支持本地商戶及餐飲業發展。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2022/07/withIsa-1-1024x683.jpg',
     alt: 'Ritch Lau volunteering with the Taste of Asia festival and FCCM'
   },
   {
     era: 'term',
     date: '<span class="lang-en">2022 – 2026</span><span class="lang-zh">2022至2026年</span>',
-    label: '<span class="lang-en">Founding member, Former President of A.C.E.</span><span class="lang-zh">A.C.E.政經民社創會成員及前會長</span>',
-    title: '<span class="lang-en">Founding member, Former President of Active Community Engagement (A.C.E.)</span><span class="lang-zh">政經民社（A.C.E.）創會成員及前會長</span>',
-    body: '<span class="lang-en">As former President and a founding member of Active Community Engagement (A.C.E.), Ritch helped organize community initiatives such as rapid test kit giveaways for residents during the COVID pandemic.</span><span class="lang-zh">劉肇麟為政經民社Active Community Engagement（A.C.E.）前任會長及創會成員，曾協助組織社區活動，包括在新冠疫情期間為居民派發快速測試。</span>',
-    img: 'https://ritchlau.ca/wp-content/uploads/2022/05/Rapid-Test-Kit-Giveaway-768x768.jpg',
-    alt: 'Active Community Engagement rapid test kit giveaway event'
-  },
-  {
-    era: 'term',
-    date: '<span class="lang-en">2022 – 2026</span><span class="lang-zh">2022至2026年</span>',
     label: '<span class="lang-en">Cherish Advisor</span><span class="lang-zh">Cherish智愛中心榮譽顧問</span>',
     title: '<span class="lang-en">Honorary Advisor, Cherish Integrated Services</span><span class="lang-zh">Cherish智愛中心榮譽顧問</span>',
-    body: '<span class="lang-en">Ritch serves as an Honorary Advisor to Cherish Integrated Services, supporting their work for the intellectual disabled in the community.</span><span class="lang-zh">劉肇麟擔任Cherish Integrated Services榮譽顧問，支持其為智力障礙群體的社區服務工作。</span>',
+    body: '<span class="lang-en">Ritch serves as an Honorary Advisor to Cherish Integrated Services, supporting their work to empower individuals with intellectual disabilities and their families. Through his involvement, he has helped promote their mission, support fundraising efforts, and strengthen community awareness for more inclusive services.</span><span class="lang-zh">劉肇麟現任 Cherish Integrated Services 榮譽顧問，積極支持該機構服務智障人士及其家庭的使命。他透過參與社區倡議及籌款活動，協助提升公眾關注，推動更具包容性的社區，讓更多有需要人士獲得支持。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2026/06/Cherish-768x768.jpg',
     alt: 'Ritch Lau with Cherish Integrated Services'
   },
   {
     era: 'term',
     date: '<span class="lang-en">First term</span><span class="lang-zh">首個任期</span>',
-    label: '<span class="lang-en">Neighbourhood & Traffic safety push</span><span class="lang-zh">爭取社區及交通安全</span>',
-    title: '<span class="lang-en">Working on neighbourhood & traffic safety</span><span class="lang-zh">推動社區及交通安全</span>',
-    body: '<span class="lang-en">As a father of two, Ritch understands that every family deserves to feel safe. He has made neighbourhood and traffic safety a top priority, partnering with Neighbourhood Watch Groups and York Regional Police to make Ward 2 safer and help reduce crime.</span><span class="lang-zh">身為兩個孩子的父親，劉肇麟深信每個家庭都應該享有安全安心的生活環境。他將社區安全及道路安全列為首要議題，與社區團體及約克區警政緊密合作，讓第二選區街道更安全，並共同努力減少罪案。</span>',
+    label: '<span class="lang-en">Safer Neighbourhoods, Safer Streets</span><span class="lang-zh">守護社區安全</span>',
+    title: '<span class="lang-en">Safer Neighbourhoods, Safer Streets</span><span class="lang-zh">守護社區安全</span>',
+    body: '<span class="lang-en">As a father of two, Ritch understands that every family deserves to feel safe in their own neighbourhood. He has made community and traffic safety a top priority, working alongside Neighbourhood Watch Groups and York Regional Police to strengthen partnerships, address local concerns, help reduce crime, and help make Ward 2 a safer place to live.</span><span class="lang-zh">身為兩個孩子的父親，劉肇麟深信每個家庭都應該享有安全安心的生活環境。他將社區安全及道路安全列為首要議題，積極與社區守望相助組織及約克區警隊合作，回應居民關注，努力協助減少罪案，讓第二選區更安全。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-11-at-3.14.47-PM-768x576.jpeg',
     alt: 'Ritch worked closely with York Regional Police to tackle crime rates and road safety'
   },
   {
     era: 'term',
     date: '<span class="lang-en">First term</span><span class="lang-zh">首個任期</span>',
-    label: '<span class="lang-en">Community Centre advocacy</span><span class="lang-zh">爭取興建社區中心</span>',
-    title: '<span class="lang-en">Pushing for a Ward 2 Community Centre</span><span class="lang-zh">爭取興建第二選區社區中心</span>',
-    body: '<span class="lang-en">Councillor Lau brought forward and successfully passed a motion addressing Ward 2’s long-standing need for its own dedicated community centre. The motion highlighted the growing demand for sports and recreational programs, where available spaces continue to fall short of residents’ needs. It received unanimous support from the Mayor, Deputy Mayor, and all Members of Markham City Council, marking an important step toward securing a future community centre.</span><span class="lang-zh">劉議員提出並成功推動個人議案，反映第二區居民多年來缺乏專屬社區中心的現況，以及體育及康樂活動名額長期供不應求的需求。議案最終獲得市長、副市長及全體萬錦市議員一致支持通過，為爭取落實全新社區中心邁出重要一步。</span>',
+    label: '<span class="lang-en">Championing a Future Community Centre</span><span class="lang-zh">推動未來社區中心建設</span>',
+    title: '<span class="lang-en">Championing a Future Community Centre</span><span class="lang-zh">推動未來社區中心建設</span>',
+    body: '<span class="lang-en">Ritch delivered on his 2022 campaign commitment by bringing forward and successfully passing a motion to address Ward 2’s long-standing need for a dedicated multi-purpose community centre. The motion recognized the growing demand for sports, recreation, and community programs, with existing facilities unable to meet residents’ needs. It received unanimous support from the Mayor, Deputy Mayor, and all Members of Markham City Council, marking a significant step toward securing a future multi-purpose community centre for Ward 2 residents.</span><span class="lang-zh">劉議員兌現2022年參選承諾，提出並成功推動市議會通過動議，回應Ward 2多年來缺乏專屬社區中心的需要。該動議指出，隨著社區人口持續增長，居民對體育、康樂及社區活動空間的需求日益增加，而現有設施已未能完全滿足需要。動議獲市長、副市長及萬錦市議會全體議員一致支持，為爭取未來多用途社區中心邁出重要一步。</span>',
     img: 'https://ritchlau.ca/wp-content/uploads/2024/11/unnamed.jpg',
     alt: 'The existing Victoria Square Community Centre'
   },
   {
     era: 'term',
     date: '<span class="lang-en">First term</span><span class="lang-zh">首個任期</span>',
-    label: '<span class="lang-en">Resident casework</span><span class="lang-zh">為居民跟進個案</span>',
-    title: '<span class="lang-en">Direct resident casework</span><span class="lang-zh">直接為居民跟進個案</span>',
+    label: '<span class="lang-en">Listening & Responding</span><span class="lang-zh">聆聽民意・積極跟進</span>',
+    title: '<span class="lang-en">Listening & Responding</span><span class="lang-zh">聆聽民意・積極跟進</span>',
     body: '<span class="lang-en">Ritch personally responds to residents through emails, phone calls, WhatsApp, and neighbourhood group chats — helping with traffic safety, tree maintenance, parks, roads, by-law concerns, and construction impacts, and connecting cases with the right City staff.</span><span class="lang-zh">劉肇麟親自透過電郵、電話、WhatsApp及社區群組回應居民，協助處理交通安全、樹木維護、公園、道路、法規事宜及工程影響等問題，並將個案轉介予相關市府部門跟進。</span>',
     img: 'images/resident-casework.jpg',
     alt: 'Ritch Lau door-knocking, speaking with a resident at their front door'
@@ -134,9 +134,9 @@ const CE_ENTRIES = [
   {
     era: 'next',
     date: '<span class="lang-en">2026 – 2030</span><span class="lang-zh">2026至2030年</span>',
-    label: '<span class="lang-en">Looking ahead</span><span class="lang-zh">展望未來</span>',
-    title: '<span class="lang-en">Looking ahead to a second term</span><span class="lang-zh">展望第二個任期</span>',
-    body: '<span class="lang-en">If re-elected, Ritch aims to build on his first-term work — continuing to push for a Ward 2 Community Centre, further traffic-safety improvements, and staying accessible and responsive to residents.</span><span class="lang-zh">若成功連任，劉肇麟期望延續首個任期的工作 — 繼續爭取興建第二選區社區中心、推動交通安全改善，並持續與居民保持緊密聯繫。</span>',
+    label: '<span class="lang-en">Building on Progress</span><span class="lang-zh">延續成果・邁向未來</span>',
+    title: '<span class="lang-en">Building on Progress: A Second Term Vision</span><span class="lang-zh">延續第一任期成果，開創Ward 2新篇章</span>',
+    body: '<span class="lang-en">If re-elected, Ritch will continue building on the progress made during his first term — advancing the approved motion for a future multi-purpose Community Centre, delivering further improvements to community and traffic safety, and remaining an accessible, responsive, and dedicated voice for Ward 2 residents.</span><span class="lang-zh">若成功連任，劉肇麟將延續第一任期所取得的成果，繼續推進市議會已通過的未來多用途社區中心計劃，進一步提升社區及交通安全，並保持開放、積極回應居民需要的服務態度，繼續成為第二選區居民值得信賴、盡責的聲音。</span>',
     img: 'images/media-interview-lake.jpg',
     alt: 'Ritch Lau speaking with media by a Ward 2 pond'
   }
@@ -225,7 +225,7 @@ if (document.getElementById('ceNodes')) {
 const HOOD_DATA = {
   buttonville: {
     name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville 前機場區</span>',
-    about: '<span class="lang-en">A largely residential area anchored by the former Buttonville Airport lands, now transitioning into a major industrial redevelopment, alongside established low-rise neighbourhoods near Hwy 404 and 16th Ave.</span><span class="lang-zh">以前Buttonville機場用地為中心的住宅區，現正轉型為大型倉庫發展項目，鄰近404號公路及16 Ave亦有成熟的低層住宅社區。</span>',
+    about: '<span class="lang-en">A community shaped by Markham’s aviation heritage, Buttonville is entering a new chapter as the former airport lands transform into a major employment and industrial hub, alongside established residential neighbourhoods near Woodbine Avenue and 16th Avenue.</span><span class="lang-zh">Buttonville 是一個承載萬錦航空歷史的社區，隨著前機場土地展開轉型，正邁向成為重要的就業及產業發展區。與此同時，區內 Woodbine Avenue 及 16th Avenue 一帶的成熟住宅社區，繼續保有其獨特的鄰里特色。</span>',
     concerns: [
       '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">機場土地改建項目的速度與規模</span>',
       '<span class="lang-en">Traffic flow along Hwy 404 corridor</span><span class="lang-zh">404號公路沿線的交通流量</span>',
@@ -234,11 +234,11 @@ const HOOD_DATA = {
   },
   cachet: {
     name: '<span class="lang-en">Cachet</span><span class="lang-zh">Cachet 凱旋區</span>',
-    about: '<span class="lang-en">An established, family-oriented community of mostly detached homes, known for mature tree cover, community parks, and proximity to top-ranked schools.</span><span class="lang-zh">成熟的家庭社區，以獨立屋為主，樹木林蔭茂密，設有社區公園，並鄰近多所優質學校</span>',
+    about: '<span class="lang-en">An established and family-oriented community in northeast Markham, Cachet is known for its spacious detached homes, mature tree-lined streets, beautiful parks and strong sense of neighbourhood pride. With convenient access to highly regarded schools and nearby amenities, Cachet remains one of Ward 2’s most desirable communities.</span><span class="lang-zh">Cachet 凱旋區是萬錦市東北部一個成熟且以家庭為核心的社區，以寬敞的獨立屋、綠樹成蔭的街道、優美的公園及濃厚的鄰里凝聚力而聞名。社區鄰近優質學校及各項生活設施，一直是第二選區內深受居民喜愛的宜居社區。</span>',
     concerns: [
       '<span class="lang-en">Fighting property crimes, strengthening neighbourhood watch, and building safer communities together.</span><span class="lang-zh">致力打擊入屋盜竊、偷車等社區罪案，推動及加強鄰舍守望，攜手打造更安全的社區</span>',
       '<span class="lang-en">Addressing issues related to mature trees, tree sap, and honeydew</span><span class="lang-zh">積極跟進成熟樹木、樹液及蜜露對居民造成的困擾</span>',
-      '<span class="lang-en">Speeding and traffic calming on residential streets</span><span class="lang-zh">住宅街道超速問題及減速措施</span>'
+      '<span class="lang-en">Protecting Cachet’s mature neighbourhood character, green spaces, and quality of life</span><span class="lang-zh">保護 Cachet 獨特的社區特色，守護居民珍惜的生活環境</span>'
     ]
   },
   cathedraltown: {
@@ -296,9 +296,9 @@ function selectHood(hood) {
 
   mapPanelName.innerHTML = data.name;
   mapPanelBody.innerHTML = `
-    <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">關於社區</span></p>
+    <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">社區特色</span></p>
     <p>${data.about}</p>
-    <p class="hood-card__label"><span class="lang-en">Key Priorities</span><span class="lang-zh">重點議題</span></p>
+    <p class="hood-card__label"><span class="lang-en">Key Priorities & Results</span><span class="lang-zh">重點議題及工作成果</span></p>
     <ul>${data.concerns.map(c => `<li>${c}</li>`).join('')}</ul>
   `;
 }
