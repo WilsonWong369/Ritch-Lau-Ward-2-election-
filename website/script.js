@@ -252,7 +252,7 @@ const HOOD_DATA = {
   },
   'victoria-square': {
     name: '<span class="lang-en">Victoria Square</span><span class="lang-zh">Victoria Square 維多利亞廣場</span>',
-    about: '<span class="lang-en">One of Markham\'s older hamlets, retaining a small-town, semi-rural character even as newer subdivisions grow up around it near Kennedy Rd and Elgin Mills.</span><span class="lang-zh">萬錦市其中一個歷史悠久的小鎮，即使Kennedy Rd及Elgin Mills一帶新社區不斷發展，仍保留小鎮及半鄉郊的特色</span>',
+    about: '<span class="lang-en">One of Markham\’s historic hamlets, Victoria Square retains its small-town, semi-rural character while evolving alongside newer neighbourhoods. Located near Victoria Square Blvd (formerly Woodbine Ave) and Elgin Mills Rd, it offers a unique blend of heritage, community and modern growth.</span><span class="lang-zh">Victoria Square 是萬錦市歷史悠久的社區之一，坐落於 Victoria Square Blvd（前身為 Woodbine Ave）與 Elgin Mills Rd 一帶，保留著獨特的小鎮及半鄉村風貌，在發展中延續其歷史與社區特色。</span>',
     concerns: [
       '<span class="lang-en">Preserving heritage character amid new development</span><span class="lang-zh">在新發展中保留歷史特色</span>',
       '<span class="lang-en">Helped secure the largest City capital investment of 2025 for the Victoria Square Boulevard Reconstruction Project</span><span class="lang-zh">2025年積極爭取並協助促成市府於最大規模的投資撥款，用於維多利亞廣場大道（Victoria Square Boulevard）重建工程</span>',
@@ -262,7 +262,7 @@ const HOOD_DATA = {
   },
   springwater: {
     name: '<span class="lang-en">Springwater</span><span class="lang-zh">Springwater 泉水</span>',
-    about: '<span class="lang-en">A quieter residential pocket near Warden Ave and Elgin Mills Rd, valued for its parks and lower-density streets</span><span class="lang-zh">位於Warden Ave及Elgin Mills Rd附近的寧靜住宅區，以公園及低密度街道見稱</span>',
+    about: '<span class="lang-en">As the newest community in Ward 2, Springwater is a growing residential neighbourhood developed across three phases by the same builder. With newer homes, family-friendly streets and green spaces, it continues to evolve into a vibrant and welcoming community.</span><span class="lang-zh">Springwater 是萬錦市第二選區最新發展的社區，由同一發展商分三期興建。社區以新建住宅、適合家庭居住的街道及綠化空間為特色，隨著區內持續發展，逐漸形成充滿活力、友善宜居的社區。</span>',
     concerns: [
       '<span class="lang-en">Acted as a key liaison between City staff and developers during the transition of municipal services, helping ensure a smooth process for residents</span><span class="lang-zh">在市政服務過渡期間，擔任市府及發展商之間的重要協調橋樑，確保居民服務順利銜接</span>',
       '<span class="lang-en">Worked with City staff and stakeholders to keep the Stoney Hill and Vine Cliff Bridge construction projects on track and moving forward</span><span class="lang-zh">與市府工作人員及相關持份者緊密合作，確保 Stoney Hill 及 Vine Cliff 橋樑工程如期推進</span>',
