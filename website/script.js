@@ -227,9 +227,9 @@ const HOOD_DATA = {
     name: '<span class="lang-en">Buttonville</span><span class="lang-zh">Buttonville 前機場區</span>',
     about: '<span class="lang-en">A community shaped by Markham’s aviation heritage, Buttonville is entering a new chapter as the former airport lands transform into a major employment and industrial hub, alongside established residential neighbourhoods near Woodbine Avenue and 16th Avenue.</span><span class="lang-zh">Buttonville 是一個承載萬錦航空歷史的社區，隨著前機場土地展開轉型，正邁向成為重要的就業及產業發展區。與此同時，區內 Woodbine Avenue 及 16th Avenue 一帶的成熟住宅社區，繼續保有其獨特的鄰里特色。</span>',
     concerns: [
-      '<span class="lang-en">Pace and scale of the Buttonville redevelopment</span><span class="lang-zh">機場土地改建項目的速度與規模</span>',
-      '<span class="lang-en">Traffic flow along Hwy 404 corridor</span><span class="lang-zh">404號公路沿線的交通流量</span>',
-      '<span class="lang-en">Ensuring new parks and schools keep pace with growth</span><span class="lang-zh">新公園及學校設施能否跟上發展步伐</span>'
+      '<span class="lang-en">Managing the pace and scale of Buttonville’s redevelopment</span><span class="lang-zh">確保Buttonville機場土地改建項目發展有序、配合社區需要</span>',
+      '<span class="lang-en">Improving traffic flow and safety on Apple Creek, Rodick and other busy secondary roads</span><span class="lang-zh">改善 Apple Creek、Rodick 等繁忙道路的交通與安全</span>',
+      '<span class="lang-en">Addressing height, density and traffic concerns related to the new Mon Sheong Court development on Apple Creek</span><span class="lang-zh">關注萬錦百頓孟嘗閣新項目的樓高、人口密度及交通影響</span>'
     ]
   },
   cachet: {
