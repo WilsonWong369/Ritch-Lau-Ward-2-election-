@@ -617,6 +617,52 @@ body[data-lang="zh"] .fact-card__label{ font-family:var(--font-zh); text-transfo
 .btn--ghost-light{ border-color:var(--white); color:var(--white); }
 .btn--ghost-light:hover{ background:var(--white); color:var(--navy); }
 
+/* Endorsements */
+.endorse-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:28px;
+}
+.endorse-card{
+  background:var(--white);
+  border:2px solid var(--line);
+  border-radius:var(--radius);
+  padding:30px 26px 26px;
+  text-align:center;
+  box-shadow:0 12px 28px rgba(11,37,69,0.08);
+  display:flex; flex-direction:column; align-items:center;
+  transition:transform 0.18s ease, box-shadow 0.18s ease;
+}
+.endorse-card:hover{ transform:translateY(-3px); box-shadow:0 18px 36px rgba(11,37,69,0.14); }
+.endorse-card__photo{
+  width:88px; height:88px; border-radius:50%;
+  object-fit:cover; border:3px solid var(--navy);
+  margin-bottom:18px;
+}
+.endorse-card__quote{
+  font-size:1rem; line-height:1.55; color:var(--ink);
+  font-style:italic; margin:0 0 18px; flex-grow:1;
+}
+.endorse-card__quote::before{ content:"\201C"; }
+.endorse-card__quote::after{ content:"\201D"; }
+.endorse-card__name{
+  font-family:var(--font-display); font-weight:700; font-size:1.02rem;
+  color:var(--navy); margin:0 0 2px; text-transform:uppercase; letter-spacing:0.01em;
+}
+.endorse-card__title{
+  font-family:var(--font-mono); font-size:0.76rem; color:var(--ink-soft);
+  letter-spacing:0.05em; margin:0;
+}
+body[data-lang="zh"] .endorse-card__name{ font-family:var(--font-zh); text-transform:none; }
+body[data-lang="zh"] .endorse-card__title{ font-family:var(--font-zh); }
+
+@media (max-width:920px){
+  .endorse-grid{ grid-template-columns:repeat(2, 1fr); }
+}
+@media (max-width:600px){
+  .endorse-grid{ grid-template-columns:1fr; }
+}
+
 /* Footer */
 .site-footer{
   background:var(--navy-deep); color:rgba(250,247,242,0.65);
