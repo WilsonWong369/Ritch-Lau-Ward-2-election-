@@ -265,7 +265,7 @@ const HOOD_DATA = {
     about: '<span class="lang-en">As the newest community in Ward 2, Springwater is a growing residential neighbourhood developed across three phases by the same builder. With newer homes, family-friendly streets and green spaces, it continues to evolve into a vibrant and welcoming community.</span><span class="lang-zh">Springwater 是萬錦市第二選區最新發展的社區，由同一發展商分三期興建。社區以新建住宅、適合家庭居住的街道及綠化空間為特色，隨著區內持續發展，逐漸形成充滿活力、友善宜居的社區。</span>',
     concerns: [
       '<span class="lang-en">Acted as a key liaison between City staff and developers during the transition of municipal services, helping ensure a smooth process for residents</span><span class="lang-zh">在市政服務過渡期間，擔任市府及發展商之間的重要協調橋樑，確保居民服務順利銜接</span>',
-      '<span class="lang-en">Worked with City staff and stakeholders to keep the Stoney Hill and Vine Cliff Bridge construction projects on track and moving forward</span><span class="lang-zh">與市府工作人員及相關持份者緊密合作，確保 Stoney Hill 及 Vine Cliff 橋樑工程如期推進</span>',
+      '<span class="lang-en">Advocated for the timely completion of the Stoney Hill and Vine Cliff Bridge projects, working with City staff and stakeholders to keep the projects moving forward.</span><span class="lang-zh">積極爭取 Stoney Hill 及 Vine Cliff 橋樑工程盡快完成，與市府工作人員及相關持份者緊密跟進，推動工程進展。</span>',
       '<span class="lang-en">Supported new homeowners by addressing concerns and helping resolve issues with their new homes</span><span class="lang-zh">積極協助新業主跟進新居相關問題，協調各方處理居民訴求</span>'
     ]
   },
