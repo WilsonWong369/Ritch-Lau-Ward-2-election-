@@ -298,7 +298,7 @@ function selectHood(hood) {
   mapPanelBody.innerHTML = `
     <p class="hood-card__label"><span class="lang-en">About</span><span class="lang-zh">社區特色</span></p>
     <p>${data.about}</p>
-    <p class="hood-card__label"><span class="lang-en">Key Priorities & Results</span><span class="lang-zh">重點議題及工作成果</span></p>
+    <p class="hood-card__label"><span class="lang-en">Ritch’s First-Term Priorities, Progress & Achievements</span><span class="lang-zh">劉議員首届任期重點議題，工作進度及成果</span></p>
     <ul>${data.concerns.map(c => `<li>${c}</li>`).join('')}</ul>
   `;
 }
