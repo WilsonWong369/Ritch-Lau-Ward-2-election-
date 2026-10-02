@@ -550,7 +550,7 @@ body[data-lang="zh"] .ward-map__panel-name{ font-family:var(--font-zh); text-tra
 }
 
 .hood-card__label{
-  font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase;
+  font-family:var(--font-mono); font-size:1.15rem; letter-spacing:0.1em; text-transform:uppercase;
   color:var(--red); margin:14px 0 6px;
 }
 
