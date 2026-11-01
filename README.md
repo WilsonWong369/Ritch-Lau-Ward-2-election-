@@ -34,3 +34,4 @@ Everything is in plain HTML/CSS/JS, no templating system:
 - Election Day: October 26, 2026.
 - The hero section's "2026 Priorities" card and timeline are meant to be living content — update them as the campaign progresses (new endorsements, events, milestones) rather than treating them as fixed at launch.
 - Contact form (`#contact`) is front-end only in `script.js` — wire it up to a real backend, Formspree, or mailto handler before relying on it to capture submissions.
+- **All Website and Coding is Authorized by the Official Agent of Ritch Lau Campaign and Wilson Wong**
